@@ -1,31 +1,29 @@
 @prefix dct: <http://purl.org/dc/terms/>.
-@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
-@prefix n0: <https://w3id.org/iqb/3er/#>. 
-@prefix n1: <https://w3id.org/iqb/3er/>. 
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix n0: <https://w3id.org/iqb/3er/#>.
+@prefix n1: <https://w3id.org/iqb/3er/>.
 
-n1:57W
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "";
-	skos:topConceptOf n0:;
-	skos:prefLabel "geschlossen"@de.
-n1:UZ
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "";
-	skos:topConceptOf n0:;
-	skos:prefLabel "halboffen"@de.
-n1:GY
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "";
-	skos:topConceptOf n0:;
-	skos:prefLabel "offen"@de.
 n0:
-	a skos:ConceptScheme;
-	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
-	dct:title "3er"@de;
-	skos:hasTopConcept
-		n1:57W,
-		n1:UZ,
-		n1:GY.
+    a skos:ConceptScheme;
+    dct:creator
+    "IQB - Institut zur Qualit\u00e4tsentwicklung im Bildungswesen"@de;
+    dct:title "3er"@de;
+    skos:hasTopConcept n1:57W, n1:GY, n1:UZ.
+n1:57W
+    a skos:Concept;
+    skos:inScheme n0:;
+    skos:notation "";
+    skos:prefLabel "geschlossen"@de;
+    skos:topConceptOf n0: .
+n1:GY
+    a skos:Concept;
+    skos:inScheme n0:;
+    skos:notation "";
+    skos:prefLabel "offen"@de;
+    skos:topConceptOf n0: .
+n1:UZ
+    a skos:Concept;
+    skos:inScheme n0:;
+    skos:notation "";
+    skos:prefLabel "halboffen"@de;
+    skos:topConceptOf n0: .
