@@ -15,7 +15,7 @@ n1:9b7
 	skos:notation "1.3";
 	skos:broader n1:xzb;
 	skos:prefLabel "das Thema und die Hauptaussagen"@de.
-n1:d93
+n1:6pd
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.4";
@@ -54,7 +54,7 @@ n1:xzb
 	skos:narrower 
 		n1:z5r,
 		n1:9b7,
-		n1:d93,
+		n1:6pd,
 		n1:ypy,
 		n1:29q,
 		n1:ghg,

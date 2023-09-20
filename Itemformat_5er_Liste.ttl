@@ -3,7 +3,7 @@
 @prefix n0: <https://w3id.org/iqb/v34/5e/#>. 
 @prefix n1: <https://w3id.org/iqb/v34/5e/>. 
 
-n1:26q
+n1:see
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
@@ -38,7 +38,7 @@ n0:
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
 	dct:title "Vokabulare zur Beschreibung des Itemformates - Itemformat 5er Liste"@de;
 	skos:hasTopConcept
-		n1:26q,
+		n1:see,
 		n1:ud7,
 		n1:q7b,
 		n1:rb4,

@@ -58,7 +58,7 @@ n1:5ru
 	skos:notation "9";
 	skos:topConceptOf n0:;
 	skos:prefLabel "true-false"@de.
-n1:v4u
+n1:562
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "10";
@@ -90,6 +90,6 @@ n0:
 		n1:hsd,
 		n1:x66,
 		n1:5ru,
-		n1:v4u,
+		n1:562,
 		n1:ssh,
 		n1:9vx.

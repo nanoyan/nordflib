@@ -15,7 +15,7 @@ n1:e4c
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "halboffen"@de.
-n1:abp
+n1:sxz
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
@@ -28,4 +28,4 @@ n0:
 	skos:hasTopConcept
 		n1:ege,
 		n1:e4c,
-		n1:abp.
+		n1:sxz.
