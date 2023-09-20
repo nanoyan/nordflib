@@ -1,0 +1,95 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix n0: <https://w3id.org/iqb/v34/en/#>. 
+@prefix n1: <https://w3id.org/iqb/v34/en/>. 
+
+n1:5c4
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "gap-filling"@de.
+n1:re4
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "multiple choice"@de.
+n1:46g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "multiple matching"@de.
+n1:fsa
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4";
+	skos:topConceptOf n0:;
+	skos:prefLabel "note taking"@de.
+n1:zuh
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5";
+	skos:topConceptOf n0:;
+	skos:prefLabel "sentence completion"@de.
+n1:795
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6";
+	skos:topConceptOf n0:;
+	skos:prefLabel "sequencing"@de.
+n1:hsd
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "7";
+	skos:topConceptOf n0:;
+	skos:prefLabel "short answer"@de; 
+	skos:description "Kurzantwort"@de. 
+n1:x66
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "8";
+	skos:topConceptOf n0:;
+	skos:prefLabel "table completion"@de.
+n1:5ru
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "9";
+	skos:topConceptOf n0:;
+	skos:prefLabel "true-false"@de.
+n1:v4u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "10";
+	skos:topConceptOf n0:;
+	skos:prefLabel "true-false-justification"@de.
+n1:ssh
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "11";
+	skos:topConceptOf n0:;
+	skos:prefLabel "true-false-line"@de.
+n1:9vx
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "12";
+	skos:topConceptOf n0:;
+	skos:prefLabel "true-false-not given"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Vokabulare zur Beschreibung des Itemformates - Itemformat Englisch Sek I"@de;
+	skos:hasTopConcept
+		n1:5c4,
+		n1:re4,
+		n1:46g,
+		n1:fsa,
+		n1:zuh,
+		n1:795,
+		n1:hsd,
+		n1:x66,
+		n1:5ru,
+		n1:v4u,
+		n1:ssh,
+		n1:9vx.
