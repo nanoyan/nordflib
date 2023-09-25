@@ -3,12 +3,12 @@
 @prefix n0: <https://w3id.org/iqb/v34/3e/#>. 
 @prefix n1: <https://w3id.org/iqb/v34/3e/>. 
 
-n1:ege
+n1:2b9
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "geschlossen"@de.
+	skos:prefLabel "geschlossen;open"@de.
 n1:e4c
 	 a skos:Concept;
 	skos:inScheme n0:;
@@ -26,6 +26,6 @@ n0:
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
 	dct:title "Vokabulare zur Beschreibung des Itemformates - Itemformat 3er Liste"@de;
 	skos:hasTopConcept
-		n1:ege,
+		n1:2b9,
 		n1:e4c,
 		n1:sxz.
