@@ -1,0 +1,192 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix n0: <https://w3id.org/iqb/vmp/p1/#>. 
+@prefix n1: <https://w3id.org/iqb/vmp/p1/>. 
+
+n1:6uc
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:qe7;
+	skos:prefLabel "hinterfragen mathematische Aussagen und prüfen diese auf Korrektheit,"@de.
+n1:9ba
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:qe7;
+	skos:prefLabel "stellen Vermutungen zu mathematischen Zusammenhängen auf,"@de.
+n1:ydu
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n1:qe7;
+	skos:prefLabel "formulieren Begründungen und vollziehen Begründungen anderer nach."@de.
+n1:qe7
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Mathematisch argumentieren"@de;
+	skos:narrower 
+		n1:6uc,
+		n1:9ba,
+		n1:ydu.
+n1:c2d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n1:v5z;
+	skos:prefLabel "beschreiben und erklären (auch unter Nutzung geeigneter Medien) Überlegungen zu mathematischen Sachverhalten, Lösungswege und Ergebnisse adressatengerecht,"@de.
+n1:tfq
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n1:v5z;
+	skos:prefLabel "erläutern mathematische Zusammenhänge,"@de.
+n1:qsx
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3";
+	skos:broader n1:v5z;
+	skos:prefLabel "vollziehen Lösungen und Lösungswege anderer nach, hinterfragen und entwickeln diese gemeinsam weiter."@de.
+n1:v5z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Mathematisch kommunizieren "@de;
+	skos:narrower 
+		n1:c2d,
+		n1:tfq,
+		n1:qsx.
+n1:zv4
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1";
+	skos:broader n1:xfr;
+	skos:prefLabel "entwickeln Lösungsideen zu Aufgaben, zu denen bislang keine Lösungsroutinen bekannt sind,"@de.
+n1:ydq
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2";
+	skos:broader n1:xfr;
+	skos:prefLabel "entwickeln Lösungsstrategien (z. B. systematisches Probieren, Analogien nutzen), wählen heuristische Hilfsmittel aus und nutzen diese (z. B. Tabellen),"@de.
+n1:h2q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3";
+	skos:broader n1:xfr;
+	skos:prefLabel "überdenken Vorgehensweisen und passen diese gegebenenfalls an."@de.
+n1:xfr
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Probleme mathematisch lösen"@de;
+	skos:narrower 
+		n1:zv4,
+		n1:ydq,
+		n1:h2q.
+n1:b7y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1";
+	skos:broader n1:35b;
+	skos:prefLabel "entnehmen die für die mathematische Bearbeitung einer Fragestellung relevanten Informationen u. a. aus Texten, Darstellungen, der Lebenswirklichkeit,"@de.
+n1:xqg
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2";
+	skos:broader n1:35b;
+	skos:prefLabel "übersetzen Sachprobleme in die Sprache der Mathematik und prüfen und interpretieren die mathematische Lösung in Bezug auf die Ausgangssituation,"@de.
+n1:a32
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3";
+	skos:broader n1:35b;
+	skos:prefLabel "formulieren zu Termen, Gleichungen und bildlichen Darstellungen Sachaufgaben."@de.
+n1:35b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Mathematisch modellieren"@de;
+	skos:narrower 
+		n1:b7y,
+		n1:xqg,
+		n1:a32.
+n1:r2f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1";
+	skos:broader n1:f5q;
+	skos:prefLabel "wählen geeignete Darstellungsformen für das Bearbeiten mathematischer Fragestellungen aus und nutzen und entwickeln diese,"@de.
+n1:vxc
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.2";
+	skos:broader n1:f5q;
+	skos:prefLabel "übertragen eine Darstellungsform in eine andere,"@de.
+n1:3f2
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.3";
+	skos:broader n1:f5q;
+	skos:prefLabel "vergleichen Darstellungsformen miteinander und bewerten diese."@de.
+n1:f5q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Mathematisch darstellen"@de;
+	skos:narrower 
+		n1:r2f,
+		n1:vxc,
+		n1:3f2.
+n1:hbd
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.1";
+	skos:broader n1:939;
+	skos:prefLabel "übersetzen symbolische und formale Sprache in Alltagssprache und umgekehrt,"@de.
+n1:syv
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.2";
+	skos:broader n1:939;
+	skos:prefLabel "verwenden mathematische Fachbegriffe und Zeichen sachgerecht,"@de.
+n1:er6
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.3";
+	skos:broader n1:939;
+	skos:prefLabel "verwenden mathematische Objekte (z. B. Zahldarstellungen, Terme, Ecken, Kanten, Tabellen, Diagramme) bei der Bearbeitung mathematischer Aufgaben- und Problemstellungen sicher und flexibel,"@de.
+n1:de4
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.4";
+	skos:broader n1:939;
+	skos:prefLabel "setzen mathematische Werkzeuge (z. B. Zeichenwerkzeuge, digitale Werkzeuge) sachgerecht ein."@de.
+n1:939
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Mit mathematischen Objekten und Werkzeugen arbeiten"@de;
+	skos:narrower 
+		n1:hbd,
+		n1:syv,
+		n1:er6,
+		n1:de4.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "2022 Mathematik Primarbereich - Prozessbezogene Kompetenzen"@de;
+	dct:description "Prozessbezogene Kompetenzen zeigen sich in der lebendigen Auseinandersetzung mit Mathematik und auf die gleiche Weise – in der tätigen Auseinandersetzung – werden sie erworben. Die angestrebten Formen der Nutzung von Mathematik müssen daher auch regelmäßig genutzte Formen des Mathematiklernens sein. Von zentraler Bedeutung für eine erfolgreiche Nutzung und Aneignung von Mathematik sind vor allem die folgenden sechs prozessbezogenen Kompetenzen.Abbildung 2: Grafische Darstellung des Zusammenwirkens von prozessbezogenen und inhaltsbezogenen Kompetenzen; Diese lassen sich für Schülerinnen und Schüler am Ende von Jahrgangsstufe 4 wie folgt konkretisieren (die Reihenfolge der Auflistung gibt keine Gewichtung vor):"@de;
+	skos:hasTopConcept
+		n1:qe7,
+		n1:v5z,
+		n1:xfr,
+		n1:35b,
+		n1:f5q,
+		n1:939.
