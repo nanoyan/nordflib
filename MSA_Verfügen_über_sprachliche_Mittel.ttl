@@ -1,0 +1,77 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix n0: <https://w3id.org/iqb/vf1/vm/#>. 
+@prefix n1: <https://w3id.org/iqb/vf1/vm/>. 
+
+n1:7a6
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:rqb;
+	skos:prefLabel "sich zu vertrauten Themen (insbesondere solchen des eigenen Interessensbereichs) äußern, mitunter zögernd und mithilfe von Umschreibungen."@de.
+n1:pd2
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:rqb;
+	skos:prefLabel "ein breites Spektrum einfacher sprachlicher Mittel flexibel einsetzen, um ihre Mitteilungsabsichten grundlegend zu realisieren, die wichtigsten Aspekte eines Gedankens oder eines Problems zu erklären und eigene Überlegungen zu Themen von allgemeinem Interesse auszudrücken."@de.
+n1:s9z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n1:rqb;
+	skos:prefLabel "ihre Ausdrucksweise auch weniger routinemäßigen, sogar schwierigen Situationen anpassen."@de.
+n1:zu3
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4";
+	skos:broader n1:rqb;
+	skos:prefLabel "ein Repertoire von häufig gebrauchten Wendungen, Konstruktionen und Phrasen, die an eher vorhersehbare Situationen gebunden sind, hinreichend korrekt verwenden."@de.
+n1:ega
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5";
+	skos:broader n1:rqb;
+	skos:prefLabel "grammatische Strukturen in vertrauten Kommunikationssituationen hinreichend korrekt und sicher anwenden. Mitunter zeigen sich erkennbare Einflüssen anderer Sprachen, ohne dass dies jedoch das Verständnis beeinträchtigt."@de.
+n1:su4
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6";
+	skos:broader n1:rqb;
+	skos:prefLabel "die Orthographie und Zeichensetzung so exakt anwenden, dass die von ihnen produzierten zusammenhängenden Texte verständlich sind."@de.
+n1:4eb
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.7";
+	skos:broader n1:rqb;
+	skos:prefLabel "ihnen vertraute (digitale) Hilfsmittel situations- und zweckangemessen zur Sicherstellung weitgehender orthographischer Korrektheit in der Regel selbstständig nutzen."@de.
+n1:rqb
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Lexiko-Grammatik"@de; 
+	skos:description "Die sprachlichen Mittel – Wortschatz, Grammatik, Aussprache, Prosodie und Orthographie – sind Kompetenz bildende, funktionale Bestandteile des sprachlichen Systems und der Kommunikation. In der Vermittlung und bei der Aneignung der funktionalen kommunikativen Kompetenz haben die sprachlichen Mittel allerdings grundsätzlich dienende Funktion, da die gelingende Kommunikation im Vordergrund steht. Die kommunikativen Ziele können – u.a. abhängig vom erreichten Kompetenzniveau und der Kooperationsbereitschaft der Kommunikationspartnerinnen und -partner – mit unterschiedlichen sprachlichen Mitteln erreicht werden. Bei der Auswahl der zu vermittelnden sprachlichen Mittel sollte daher von einer kommunikativen Progression ausgegangen werden, während die sprachstrukturelle Progression eine nachgeordnete, dienende Funktion hat. Die Vermittlung und die Aneignung von Wortschatz im Sinne komplexer lexiko-grammatischer Einheiten sind mit Blick auf die funktionale kommunikative Kompetenz zentral."@de ;
+	skos:narrower 
+		n1:7a6,
+		n1:pd2,
+		n1:s9z,
+		n1:zu3,
+		n1:ega,
+		n1:su4,
+		n1:4eb.
+n1:74q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Aussprache und Prosodie"@de; 
+	skos:description "Die Aussprache der Schülerinnen und Schüler ist im Allgemeinen durchgängig verständlich, auch wenn der Einfluss von anderen Sprachen, die sie sprechen, auf die Betonung, die Intonation und/oder den Rhythmus bemerkbar ist und obwohl sie wiederholt einzelne weniger vertraute Laute und Wörter falsch aussprechen."@de. 
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "2023 erste Fremdsprache ESA und MSA - MSA Verfügen über sprachliche Mittel"@de;
+	dct:description "Verfügen über sprachliche Mittel;Die sprachlichen Mittel – Wortschatz, Grammatik, Aussprache, Prosodie und Orthographie – sind Kompetenz bildende, funktionale Bestandteile des sprachlichen Systems und der Kommunikation. In der Vermittlung und bei der Aneignung der funktionalen kommunikativen Kompetenz haben die sprachlichen Mittel allerdings grundsätzlich dienende Funktion, da die gelingende Kommunikation im Vordergrund steht. Die kommunikativen Ziele können – u.a. abhängig vom erreichten Kompetenzniveau und der Kooperationsbereitschaft der Kommunikationspartnerinnen und -partner – mit unterschiedlichen sprachlichen Mitteln erreicht werden. Bei der Auswahl der zu vermittelnden sprachlichen Mittel sollte daher von einer kommunikativen Progression ausgegangen wer den, während die sprachstrukturelle Progression eine nachgeordnete, dienende Funktion hat. Die Vermittlung und die Aneignung von Wortschatz im Sinne komplexer lexiko-grammatischer Einheiten sind mit Blick auf die funktionale kommunikative Kompetenz zentral."@de;
+	skos:hasTopConcept
+		n1:rqb,
+		n1:74q.
