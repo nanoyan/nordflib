@@ -1,57 +1,57 @@
 @prefix dct: <http://purl.org/dc/terms/>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
-@prefix n0: <https://w3id.org/iqb/vf1/fe/#>. 
-@prefix n1: <https://w3id.org/iqb/vf1/fe/>. 
+@prefix n0: <https://w3id.org/iqb/v56/fe/#>. 
+@prefix n1: <https://w3id.org/iqb/v56/fe/>. 
 
-n1:5gv
+n1:b7t
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.1";
-	skos:broader n1:tx9;
+	skos:broader n1:s4e;
 	skos:prefLabel "in strukturell unkomplizierten Hörtexten zu vertrauten Themen das Thema erfassen und die Hauptaussagen und Einzelinformationen verstehen, wenn in deutlich artikulierter Standardsprache oder in einer vertrauten Varietät gesprochen wird."@de.
-n1:cps
+n1:f7f
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.2";
-	skos:broader n1:tx9;
+	skos:broader n1:s4e;
 	skos:prefLabel "auch in längeren Hörtexten Mitteilungen zu konkreten Themen verstehen."@de.
-n1:cbr
+n1:r9d
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.3";
-	skos:broader n1:tx9;
+	skos:broader n1:s4e;
 	skos:prefLabel "das Thema und die Hauptaussagen von längeren Gesprächen zwischen Anderen verstehen."@de.
-n1:def
+n1:p2z
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.4";
-	skos:broader n1:tx9;
+	skos:broader n1:s4e;
 	skos:prefLabel "Vorträge und Präsentationen verstehen und dabei zwischen Hauptaussagen und unterstützenden Details unterscheiden, wenn die Thematik vertraut und die Darstellung unkompliziert und klar strukturiert ist."@de.
-n1:v6v
+n1:a4v
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.5";
-	skos:broader n1:tx9;
+	skos:broader n1:s4e;
 	skos:prefLabel "bei längeren Hörtexten und audiovisuellen Texten anhand des erfassten Themas Vorhersagen über den weiteren Inhalt treffen und diese während des Hörens anpassen."@de.
-n1:cu9
+n1:f2a
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.6";
-	skos:broader n1:tx9;
+	skos:broader n1:s4e;
 	skos:prefLabel "das Thema und die Hauptaussagen in audiovisuellen Texten zu vertrauten Themen verstehen, wenn relativ langsam und deutlich gesprochen wird."@de.
-n1:934
+n1:r6s
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.7";
-	skos:broader n1:tx9;
+	skos:broader n1:s4e;
 	skos:prefLabel "in strukturell unkomplizierten, literarisch-ästhetischen Hörtexten und audiovisuellen Texten zentrale Themen, Ereignisse, Figuren sowie deren Verbindung zueinander erfassen und erschließen."@de.
-n1:aaf
+n1:q3g
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.8";
-	skos:broader n1:tx9;
+	skos:broader n1:s4e;
 	skos:prefLabel "auf ihnen vertraute (digitale) Werkzeuge bei der Rezeption von Hörtexten und audiovisuellen Texten in der Regel selbstständig zurückgreifen."@de.
-n1:tx9
+n1:s4e
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1";
@@ -59,75 +59,75 @@ n1:tx9
 	skos:prefLabel "Hörverstehen und audiovisuelles Verstehen"@de; 
 	skos:description "Bis zum Mittleren Schulabschluss erreichen die Schülerinnen und Schüler im Wesentlichen das Niveau B1 des Gemeinsamen europäischen Referenzrahmens."@de ;
 	skos:narrower 
-		n1:5gv,
-		n1:cps,
-		n1:cbr,
-		n1:def,
-		n1:v6v,
-		n1:cu9,
-		n1:934,
-		n1:aaf.
-n1:btd
+		n1:b7t,
+		n1:f7f,
+		n1:r9d,
+		n1:p2z,
+		n1:a4v,
+		n1:f2a,
+		n1:r6s,
+		n1:q3g.
+n1:f6z
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.1";
-	skos:broader n1:45r;
+	skos:broader n1:p4q;
 	skos:prefLabel "strukturell unkomplizierte Korrespondenz zu vertrauten Themen einschließlich der verwendeten Umgangsformen verstehen."@de.
-n1:h36
+n1:t7x
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.2";
-	skos:broader n1:45r;
+	skos:broader n1:p4q;
 	skos:prefLabel "in strukturell unkomplizierten Gebrauchstexten wichtige Informationen auffinden und verstehen sowie zum Lösen einer Aufgabe Informationen aus verschiedenen Texten zusammentragen."@de.
-n1:zuh
+n1:h9s
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.3";
-	skos:broader n1:45r;
+	skos:broader n1:p4q;
 	skos:prefLabel "klar formulierte Anleitungen, Hinweise oder Vorschriften verstehen."@de.
-n1:5b4
+n1:d6u
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.4";
-	skos:broader n1:45r;
+	skos:broader n1:p4q;
 	skos:prefLabel "strukturell unkomplizierte Sachtexten zu vertrauten Themen verstehen und dabei die Hauptaussagen erkennen und Einzelinformationen erfassen."@de.
-n1:eaz
+n1:e6v
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.5";
-	skos:broader n1:45r;
+	skos:broader n1:p4q;
 	skos:prefLabel "in strukturell unkomplizierten literarisch-ästhetischen Texten zentrale Themen, Ereignisse, Figuren sowie deren Verbindung zueinander erfassen."@de.
-n1:74u
+n1:h3s
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.6";
-	skos:broader n1:45r;
+	skos:broader n1:p4q;
 	skos:prefLabel "das eigene emotionale Erleben eines strukturell unkomplizierten literarisch-ästhetischen Texts sowie die Eigenschaften und Gefühle einer literarischen Figur erfassen."@de.
-n1:te2
+n1:y4s
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.7";
-	skos:broader n1:45r;
+	skos:broader n1:p4q;
 	skos:prefLabel "beim Lesen auf ihnen vertraute (digitale) Werkzeuge in der Regel selbstständig zurückgreifen."@de.
-n1:3yh
+n1:y2b
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.8";
-	skos:broader n1:45r;
+	skos:broader n1:p4q;
 	skos:prefLabel "die Bedeutung unbekannter Wörter in einem Text aus ihren Bestandteilen und dem Kontext ableiten."@de.
-n1:vgc
+n1:e6p
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.9";
-	skos:broader n1:45r;
+	skos:broader n1:p4q;
 	skos:prefLabel "mit Hilfe von Hinweisen in Texten und der Aufgabe Vorhersagen über den weiteren Inhalt treffen und diese während des Lesens anpassen."@de.
-n1:f7x
+n1:f6h
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.10";
-	skos:broader n1:45r;
+	skos:broader n1:p4q;
 	skos:prefLabel "die in einer Sprache/weiteren Sprachen verfügbaren Kenntnisse und erlernten Strategien in der Regel selbstständig aktivieren, um zielsprachige Texte zu verstehen."@de.
-n1:45r
+n1:p4q
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2";
@@ -135,157 +135,157 @@ n1:45r
 	skos:prefLabel "Leseverstehen"@de; 
 	skos:description "Das Leseverstehen ermöglicht die Teilhabe an Kommunikationssituationen, in denen die Rezeption schriftlich vermittelter Texte im Mittel punkt steht. Die Anforderungen in den rezeptiven Anteilen solcher Kommunikationssituationen werden durch Merkmale der Texte (z. B. Länge, sprachliche Komplexität, Struktur oder Genre) und durch spezifische Verstehensabsichten (z. B. das Thema erfassen, eine bestimmte Information auffinden) geprägt."@de ;
 	skos:narrower 
-		n1:btd,
-		n1:h36,
-		n1:zuh,
-		n1:5b4,
-		n1:eaz,
-		n1:74u,
-		n1:te2,
-		n1:3yh,
-		n1:vgc,
-		n1:f7x.
-n1:a72
+		n1:f6z,
+		n1:t7x,
+		n1:h9s,
+		n1:d6u,
+		n1:e6v,
+		n1:h3s,
+		n1:y4s,
+		n1:y2b,
+		n1:e6p,
+		n1:f6h.
+n1:q7z
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.1.1";
-	skos:broader n1:deh;
+	skos:broader n1:p7b;
 	skos:prefLabel "spontan und flüssig an Gesprächen zu vertrauten und gesellschaftlich relevanten Themen teilnehmen, persönliche Meinungen ausdrücken und Argumente austauschen über Themen, die vertraut sind."@de.
-n1:gdz
+n1:h7r
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.1.2";
-	skos:broader n1:deh;
+	skos:broader n1:p7b;
 	skos:prefLabel "an mündlichen Interaktionsformen teilnehmen, die eine inhaltliche, sprachliche oder strategische Vorbereitung voraussetzen."@de.
-n1:v2y
+n1:g7r
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.1.3";
-	skos:broader n1:deh;
+	skos:broader n1:p7b;
 	skos:prefLabel "ein strukturell unkompliziertes Gespräch auch ohne Vorbereitung unter Berücksichtigung der wichtigsten Höflichkeitskonventionen spontan führen."@de.
-n1:df5
+n1:a6d
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.1.4";
-	skos:broader n1:deh;
+	skos:broader n1:p7b;
 	skos:prefLabel "in einem Alltagsgespräch klar artikulierte Standardsprache verstehen, sie müssen aber manchmal um Wiederholung oder Klärung bestimmter Wörter und Wendungen bitten."@de.
-n1:fea
+n1:p7v
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.1.5";
-	skos:broader n1:deh;
+	skos:broader n1:p7b;
 	skos:prefLabel "an routinemäßigen formellen Diskussionen über vertraute Themen teilnehmen, sofern die Punkte in überwiegend einfacher Sprache vorgebracht und/oder wiederholt werden und Gelegenheit zur Klärung besteht."@de.
-n1:xa6
+n1:t2s
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.1.6";
-	skos:broader n1:deh;
+	skos:broader n1:p7b;
 	skos:prefLabel "unkomplizierte Sachinformationen über vertraute Themen adressaten-, situations- und zweckangemessen weitergeben und Informationsfragen dazu detailliert beantworten."@de.
-n1:xhd
+n1:e7v
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.1.7";
-	skos:broader n1:deh;
+	skos:broader n1:p7b;
 	skos:prefLabel "(digitale) Hilfsmittel nutzen, um relativ einfache, aber ausführliche Gespräche mit persönlich bekannten Personen zu führen oder grundlegende Dienstleistungen zu erhalten."@de.
-n1:rvt
+n1:x2v
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.1.8";
-	skos:broader n1:deh;
+	skos:broader n1:p7b;
 	skos:prefLabel "neue Ausdrücke und Kombinationen von Ausdrücken einüben und ausprobieren und um Rückmeldung dazu bitten."@de.
-n1:qpr
+n1:v4d
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.1.9";
-	skos:broader n1:deh;
+	skos:broader n1:p7b;
 	skos:prefLabel "sprachlich oder inhaltlich ähnliche Wörter verwenden, im Versuch ein fehlendes Wort zu paraphrasieren."@de.
-n1:urr
+n1:z5v
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.1.10";
-	skos:broader n1:deh;
+	skos:broader n1:p7b;
 	skos:prefLabel "ein strukturell unkompliziertes Gespräch adressaten-, situations- und zweckangemessen beginnen, in Gang haltenund beenden."@de.
-n1:a6v
+n1:f7b
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.1.11";
-	skos:broader n1:deh;
+	skos:broader n1:p7b;
 	skos:prefLabel "die in einer Sprache/weiteren Sprachen verfügbaren Kenntnisse, Fertigkeiten und erlernten Strategien in der Regel selbstständig für die spontane Alltagskommunikation in der Zielsprache nutzen."@de.
-n1:deh
+n1:p7b
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.1";
-	skos:broader n1:a4b;
+	skos:broader n1:r6v;
 	skos:prefLabel "Mündliche Interaktion"@de;
 	skos:narrower 
-		n1:a72,
-		n1:gdz,
-		n1:v2y,
-		n1:df5,
-		n1:fea,
-		n1:xa6,
-		n1:xhd,
-		n1:rvt,
-		n1:qpr,
-		n1:urr,
-		n1:a6v.
-n1:zhb
+		n1:q7z,
+		n1:h7r,
+		n1:g7r,
+		n1:a6d,
+		n1:p7v,
+		n1:t2s,
+		n1:e7v,
+		n1:x2v,
+		n1:v4d,
+		n1:z5v,
+		n1:f7b.
+n1:q2z
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.2.1";
-	skos:broader n1:ybp;
+	skos:broader n1:h4e;
 	skos:prefLabel "weitgehend flüssig strukturell unkomplizierte, aber zusammenhängende Beschreibungen und Darstellungen zu vertrauten Themen geben, wobei die einzelnen Punkte linear aneinandergereiht werden."@de.
-n1:ayx
+n1:f5u
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.2.2";
-	skos:broader n1:ybp;
+	skos:broader n1:h4e;
 	skos:prefLabel "zu verschiedenen vertrauten Themen des eigenen Interessenbereichs strukturell unkomplizierte Beschreibungen oder Berichte geben."@de.
-n1:33u
+n1:u6y
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.2.3";
-	skos:broader n1:ybp;
+	skos:broader n1:h4e;
 	skos:prefLabel "die Hauptaspekte einer Idee oder eines Problems hinreichend genau erklären."@de.
-n1:zx2
+n1:d6r
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.2.4";
-	skos:broader n1:ybp;
+	skos:broader n1:h4e;
 	skos:prefLabel "für Ansichten, Pläne oder Handlungen, kurze Begründungen oder Erklärungen geben."@de.
-n1:2d6
+n1:u5d
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.2.5";
-	skos:broader n1:ybp;
+	skos:broader n1:h4e;
 	skos:prefLabel "vorbereitete Präsentationen zu vertrauten Themen in verschiedenen Kommunikationsformen so klar und präzise vortragen, dass man dieser meist mühelos folgen kann."@de.
-n1:62z
+n1:u7c
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.2.6";
-	skos:broader n1:ybp;
+	skos:broader n1:h4e;
 	skos:prefLabel "(digitale) Hilfsmittel in der Regel selbstständig nutzen, um zusammenhängende mündliche Äußerungen zu vertrauten Themen zu verfassen."@de.
-n1:h6e
+n1:d2r
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.2.7";
-	skos:broader n1:ybp;
+	skos:broader n1:h4e;
 	skos:prefLabel "ihre begrenzten Kompetenzen in den verschiedenen ihnen eventuell zur Verfügung stehenden Sprachen in der Regel selbstständig für zusammenhängende Beschreibungen und Berichte in der Zielsprache nutzen."@de.
-n1:ybp
+n1:h4e
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.2";
-	skos:broader n1:a4b;
+	skos:broader n1:r6v;
 	skos:prefLabel "Mündliche Produktion"@de;
 	skos:narrower 
-		n1:zhb,
-		n1:ayx,
-		n1:33u,
-		n1:zx2,
-		n1:2d6,
-		n1:62z,
-		n1:h6e.
-n1:a4b
+		n1:q2z,
+		n1:f5u,
+		n1:u6y,
+		n1:d6r,
+		n1:u5d,
+		n1:u7c,
+		n1:d2r.
+n1:r6v
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3";
@@ -293,142 +293,142 @@ n1:a4b
 	skos:prefLabel "Sprechen"@de; 
 	skos:description "Sprechen ist auf die Produktion mündlicher Texte ausgerichtet. Dabei ist Sprechen stets – selbst in der Form eines Vortrags – ein interaktiver Vorgang, da die Reaktionen eines Publikums u.a. eingeplant, antizipiert, aufgegriffen werden. Im Folgenden wird jedoch unterschieden zwischen mündlicher Interaktion als Form dialogischen Sprechens und mündlicher Produktion als Form monologischen Sprechens, da diese jeweils unterschiedliche Teilkompetenzen und Strategien erfordern. Beide Formen mündlicher Kommunikation umfassen narrative, expositorische und argumentative Genres, die für die Alltagskommunikation der Schülerinnen und Schüler relevant sind. Diese Kommunikation findet sowohl face-to-face als auch im digitalen Raum statt. So sind durch den Einsatz digitaler Medien neue Formen der Mündlichkeit entstanden."@de ;
 	skos:narrower 
-		n1:deh,
-		n1:ybp.
-n1:p2h
+		n1:p7b,
+		n1:h4e.
+n1:z5s
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.1.1";
-	skos:broader n1:adp;
+	skos:broader n1:q4q;
 	skos:prefLabel "adressaten-, situations- und zweckangemessen in einfachen Texten zu vertrauten Themen schriftlich interagieren."@de.
-n1:ge9
+n1:c3p
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.1.2";
-	skos:broader n1:adp;
+	skos:broader n1:q4q;
 	skos:prefLabel "in persönlichen Korrespondenzen einfache Informationen von unmittelbarer Bedeutung geben oder erfragen und dabei deutlich machen, was sie für wichtig halten."@de.
-n1:rzd
+n1:y2x
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.1.3";
-	skos:broader n1:adp;
+	skos:broader n1:q4q;
 	skos:prefLabel "persönliche Korrespondenzen verfassen und darin detailliert über Erfahrungen, Gefühle, Ereignisse, Meinungen berichten."@de.
-n1:u5g
+n1:s9r
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.1.4";
-	skos:broader n1:adp;
+	skos:broader n1:q4q;
 	skos:prefLabel "adressaten-, situations- und zweckangemessen Notizen mit einfachen, unmittelbar relevanten Informationen formulieren."@de.
-n1:q3q
+n1:f2f
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.1.5";
-	skos:broader n1:adp;
+	skos:broader n1:q4q;
 	skos:prefLabel "formelle Schreiben, die inhaltlich, sprachlich und formal korrekt gestaltet sein sollen, verfassen und bei Bedarf notwendige (digitale) Hilfen nutzen."@de.
-n1:yat
+n1:g2s
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.1.6";
-	skos:broader n1:adp;
+	skos:broader n1:q4q;
 	skos:prefLabel "Beitrag zu einer Online-Diskussion über ein vertrautes Thema formulieren und individuell und weitgehend detailliert auf die Kommentare anderer eingehen."@de.
-n1:pxr
+n1:t7a
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.1.7";
-	skos:broader n1:adp;
+	skos:broader n1:q4q;
 	skos:prefLabel "in der Regel selbständig erklären, warum bestimmte Teile oder Aspekte eines literarisch-ästhetischen Textes für sie von besonderem Interesse sind."@de.
-n1:dxa
+n1:r2g
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.1.8";
-	skos:broader n1:adp;
+	skos:broader n1:q4q;
 	skos:prefLabel "(digitale) Hilfsmittel in der Regel selbstständig nutzen, um in einfachen Texten schriftlich zu interagieren."@de.
-n1:4qe
+n1:f9b
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.1.9";
-	skos:broader n1:adp;
+	skos:broader n1:q4q;
 	skos:prefLabel "sprachlich oder inhaltlich ähnliche Wörter verwenden, im Versuch ein fehlendes Wort zu paraphrasieren."@de.
-n1:cvc
+n1:d5u
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.1.10";
-	skos:broader n1:adp;
+	skos:broader n1:q4q;
 	skos:prefLabel "andere um Erklärung, mehr Details oder Wiederholung in digitalen Kommunikationsformen bitten."@de.
-n1:95t
+n1:y9b
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.1.11";
-	skos:broader n1:adp;
+	skos:broader n1:q4q;
 	skos:prefLabel "die in einer Sprache/weiteren Sprachen verfügbaren Kenntnisse, Fertigkeiten und erlernten Strategien in der Regel selbstständig für schriftliche Interaktion in der Zielsprache nutzen."@de.
-n1:adp
+n1:q4q
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.1";
-	skos:broader n1:fb3;
+	skos:broader n1:z2p;
 	skos:prefLabel "Schriftliche Interaktion"@de;
 	skos:narrower 
-		n1:p2h,
-		n1:ge9,
-		n1:rzd,
-		n1:u5g,
-		n1:q3q,
-		n1:yat,
-		n1:pxr,
-		n1:dxa,
-		n1:4qe,
-		n1:cvc,
-		n1:95t.
-n1:avd
+		n1:z5s,
+		n1:c3p,
+		n1:y2x,
+		n1:s9r,
+		n1:f2f,
+		n1:g2s,
+		n1:t7a,
+		n1:r2g,
+		n1:f9b,
+		n1:d5u,
+		n1:y9b.
+n1:s4b
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.2.1";
-	skos:broader n1:f9q;
+	skos:broader n1:z3y;
 	skos:prefLabel "strukturell unkomplizierte, zusammenhängende Texte zu vertrauten und gesellschaftlich relevanten Themen verfassen, wobei einzelne kürzere Teile in linearer Abfolge verbunden werden."@de.
-n1:cs2
+n1:u2u
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.2.2";
-	skos:broader n1:f9q;
+	skos:broader n1:z3y;
 	skos:prefLabel "Beschreibungen eines realen oder fiktiven Ereignisses verfassen."@de.
-n1:9sc
+n1:g5q
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.2.3";
-	skos:broader n1:f9q;
+	skos:broader n1:z3y;
 	skos:prefLabel "in einem üblichen Standardformat kurze Berichte verfassen, in denen Sachinformationen weitergegeben und Gründe für Handlungen angegeben werden."@de.
-n1:uvt
+n1:b6s
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.2.4";
-	skos:broader n1:f9q;
+	skos:broader n1:z3y;
 	skos:prefLabel "(digitale) Hilfsmittel in der Regel selbstständig nutzen, um relativ einfache zusammenhängende Texte zu vertrauten Themen zu verfassen und zu revidieren/korrigieren."@de.
-n1:udf
+n1:h9h
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.2.5";
-	skos:broader n1:f9q;
+	skos:broader n1:z3y;
 	skos:prefLabel "das eigene Repertoire an sprachlichen Mitteln mit Hilfe (digitaler) Werkzeuge in der Regel selbstständig erweitern."@de.
-n1:ch5
+n1:d3e
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.2.6";
-	skos:broader n1:f9q;
+	skos:broader n1:z3y;
 	skos:prefLabel "die in einer Sprache/weiteren Sprachen verfügbaren Kenntnisse, Fertigkeiten und erlernten Strategien in der Regel selbstständig für das Verfassen von zielsprachigen Texten nutzen."@de.
-n1:f9q
+n1:z3y
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.2";
-	skos:broader n1:fb3;
+	skos:broader n1:z2p;
 	skos:prefLabel "Schriftliche Produktion"@de;
 	skos:narrower 
-		n1:avd,
-		n1:cs2,
-		n1:9sc,
-		n1:uvt,
-		n1:udf,
-		n1:ch5.
-n1:fb3
+		n1:s4b,
+		n1:u2u,
+		n1:g5q,
+		n1:b6s,
+		n1:h9h,
+		n1:d3e.
+n1:z2p
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4";
@@ -436,39 +436,39 @@ n1:fb3
 	skos:prefLabel "Schreiben"@de; 
 	skos:description "Schreiben ist auf die Produktion schriftlicher Texte ausgerichtet. Dabei ist es in der Regel eine auf die zwischenmenschliche Kommunikation zielende Aktivität, die allerdings auch individuellen Lern-, Erkenntnis- und Reflexionsprozessen dienen kann. Es wird jedoch im Folgenden zwischen schriftlicher Interaktion (Kommunikation zwischen zwei oder mehreren Partnern) und schriftlicher Produktion (Verfassen von Texten, die keine direkte Reaktion beabsichtigen) unterschieden, da sie unterschiedliche Teilkompetenzen und Strategien erfordern. Die schriftliche Kommunikation umfasst unterschiedliche Genres, d.h. diskurse Textformen, die für die Alltagskommunikation der Schülerinnen und Schüler relevant sind. Durch die digitale Transformation hat die schriftliche Kommunikation an Bedeutung gewonnen und neue (multimodale) Textsorten sind entstanden."@de ;
 	skos:narrower 
-		n1:adp,
-		n1:f9q.
-n1:5xz
+		n1:q4q,
+		n1:z3y.
+n1:e3a
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "5.1";
-	skos:broader n1:qpt;
+	skos:broader n1:q4r;
 	skos:prefLabel "in beide Richtungen zwischen Deutsch und der ersten Fremdsprache sprachlich und kulturell mündlich, schriftlich sowie im Wechsel der sprachlichen Repräsentationsformen auch längere Texte mitteln, wenn diese in strukturell unkomplizierter Sprache formuliert sind. Dabei sind ihnen die Kommunikations- und Interaktionsformen sowie die Themen vertraut."@de.
-n1:cfy
+n1:v2z
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "5.2";
-	skos:broader n1:qpt;
+	skos:broader n1:q4r;
 	skos:prefLabel "Interaktionen voranbringen, indem sie andere Menschen einladen, ihr Wissen, ihre eigenen Erfahrungen und Sichtweisen einzubringen."@de.
-n1:zyz
+n1:s5e
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "5.3";
-	skos:broader n1:qpt;
+	skos:broader n1:q4r;
 	skos:prefLabel "einfache Gespräche für Menschen verschiedener Herkunft durch Sprachmittlung sicherstellen. Sie sind sich dabei der eventuellen herkunftsbedingten Unterschiede und Verständnisschwierigkeiten zwischen den Menschen bewusst."@de.
-n1:syv
+n1:r6c
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "5.4";
-	skos:broader n1:qpt;
+	skos:broader n1:q4r;
 	skos:prefLabel "in Sprachmittlungs- bzw. Mediationssituationen ihre Kompetenzen im eigenen Repertoire strategisch und zielführend in der Regel selbstständig nutzen."@de.
-n1:4cp
+n1:r5g
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "5.5";
-	skos:broader n1:qpt;
+	skos:broader n1:q4r;
 	skos:prefLabel "strategisch und zielführend in Sprachmittlungs- bzw. Mediationssituationen auf personale und mediale (digitale) Hilfen in der Regel selbstständig zurückgreifen."@de.
-n1:qpt
+n1:q4r
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "5";
@@ -476,19 +476,19 @@ n1:qpt
 	skos:prefLabel "Mediation / Sprachmittlung"@de; 
 	skos:description "Mediation ist ein interaktiver Prozess, mit dem Kommunikation, Verständnis und Kooperation zwischen Personen ermöglicht und aufrechterhalten werden. Dieser Prozess vollzieht sich zum Beispiel beim Mitteln von Textinhalten und Konzepten sowie beim Ermöglichen und Gestalten von Kommunikation zwischen Menschen, die aufgrund ihrer Herkunft und Erfahrungen unterschiedliche individuelle, soziale, kulturelle oder sprachliche Grundlagen und Kompetenzen haben. Diese können zu verschiedenen kommunikativ-interaktiven Voraussetzungen und folglich unterschiedlichen Verstehensmöglichkeiten führen und eine Verständigung beeinträchtigen. Sprachmittlung umfasst die sprachlichen Prozesse der Mediation. Sprachmittlung besteht in der adressaten-, situations- und zweckangemessenen Übertragung von Informationen aus einer Sprache A in eine Sprache B für andere Personen, die anderenfalls keinen Zugang zu diesen Informationen hätten. Damit ist die Sprachmittlung eine interaktive kommunikative Kompetenz, die auf andere (fremdsprachliche) Kompetenzbereiche zurückgreift. Die Anforderungen ergeben sich aus der Vertrautheit mit den zu mittelnden Informationen, der Richtung, in der die Sprachmittlung erfolgt sowie ggf. dem Wechsel zwischen verschiedenen sprachlichen Repräsentationsformen (z. B. vom Hören zum Schreiben, vom Lesen zum Sprechen)."@de ;
 	skos:narrower 
-		n1:5xz,
-		n1:cfy,
-		n1:zyz,
-		n1:syv,
-		n1:4cp.
+		n1:e3a,
+		n1:v2z,
+		n1:s5e,
+		n1:r6c,
+		n1:r5g.
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
-	dct:title "2023 erste Fremdsprache ESA und MSA - ESA Funktionale kommunikative Kompetenz"@de;
+	dct:title "Bildungsstandards Fremdsprachen Sek I 2023 - ESA Funktionale kommunikative Kompetenz"@de;
 	dct:description "Bis zum Mittleren Schulabschluss erreichen die Schülerinnen und Schüler im Wesentlichen das Niveau B1 des Gemeinsamen europäischen Referenzrahmens."@de;
 	skos:hasTopConcept
-		n1:tx9,
-		n1:45r,
-		n1:a4b,
-		n1:fb3,
-		n1:qpt.
+		n1:s4e,
+		n1:p4q,
+		n1:r6v,
+		n1:z2p,
+		n1:q4r.
