@@ -6,18 +6,21 @@
 
 n1:h9y
 	 a skos:Concept;
+	sdo:about <http://w3id.org/kim/schulfaecher/s1017> ;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "geschlossen"@de.
 n1:f2q
 	 a skos:Concept;
+	sdo:about <http://w3id.org/kim/schulfaecher/s1017> ;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "halboffen"@de.
 n1:u7e
 	 a skos:Concept;
+	sdo:about <http://w3id.org/kim/schulfaecher/s1017> ;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
