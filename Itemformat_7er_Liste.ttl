@@ -3,130 +3,130 @@
 @prefix n0: <https://w3id.org/iqb/v34/7e/#>. 
 @prefix n1: <https://w3id.org/iqb/v34/7e/>. 
 
-n1:z5r
-	 a skos:Concept;
+n1:6tb
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "1.1";
-	skos:broader n1:xzb;
-	skos:prefLabel "in strukturell unkomplizierten Hörtexten"@de.
-n1:9b7
-	 a skos:Concept;
+	rdfs:comment "1.1";
+	rdfs:subClassOf n1:xzb;
+	rdfs:label "in strukturell unkomplizierten Hörtexten"@de.
+n1:edb
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "1.3";
-	skos:broader n1:xzb;
-	skos:prefLabel "das Thema und die Hauptaussagen"@de.
-n1:6pd
-	 a skos:Concept;
+	rdfs:comment "1.3";
+	rdfs:subClassOf n1:xzb;
+	rdfs:label "das Thema und die Hauptaussagen"@de.
+n1:r9s
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "1.4";
-	skos:broader n1:xzb;
-	skos:prefLabel "Vorträge und Präsentationen verstehen"@de.
-n1:ypy
-	 a skos:Concept;
+	rdfs:comment "1.4";
+	rdfs:subClassOf n1:xzb;
+	rdfs:label "Vorträge und Präsentationen verstehen"@de.
+n1:r9h
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "1.5";
-	skos:broader n1:xzb;
-	skos:prefLabel "bei längeren Hörtexten und audiovisuellen Texten"@de.
-n1:29q
-	 a skos:Concept;
+	rdfs:comment "1.5";
+	rdfs:subClassOf n1:xzb;
+	rdfs:label "bei längeren Hörtexten und audiovisuellen Texten"@de.
+n1:d2b
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "1.6";
-	skos:broader n1:xzb;
-	skos:prefLabel "das Thema und die Hauptaussagen in audiovisuellen Texten"@de.
+	rdfs:comment "1.6";
+	rdfs:subClassOf n1:xzb;
+	rdfs:label "das Thema und die Hauptaussagen in audiovisuellen Texten"@de.
 n1:ghg
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "1.7";
-	skos:broader n1:xzb;
-	skos:prefLabel "in strukturell unkomplizierten, literarisch-ästhetischen Hörtexten"@de.
+	rdfs:comment "1.7";
+	rdfs:subClassOf n1:xzb;
+	rdfs:label "in strukturell unkomplizierten, literarisch-ästhetischen Hörtexten"@de.
 n1:txh
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "1.8";
-	skos:broader n1:xzb;
-	skos:prefLabel "auf ihnen vertraute (digitale) Werkzeuge"@de.
+	rdfs:comment "1.8";
+	rdfs:subClassOf n1:xzb;
+	rdfs:label "auf ihnen vertraute (digitale) Werkzeuge"@de.
 n1:xzb
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "1";
-	skos:topConceptOf n0:;
-	skos:prefLabel "Hörverstehen und audiovisuelles Verstehen"@de;
-	skos:narrower 
-		n1:z5r,
-		n1:9b7,
-		n1:6pd,
-		n1:ypy,
-		n1:29q,
+	rdfs:comment "1";
+	rdfs:subClassOf n0:;
+	rdfs:label "Hörverstehen und audiovisuelles Verstehen"@de;
+	rdfs:superClassOf 
+		n1:6tb,
+		n1:edb,
+		n1:r9s,
+		n1:r9h,
+		n1:d2b,
 		n1:ghg,
 		n1:txh.
 n1:duq
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "2.1";
-	skos:broader n1:ae9;
-	skos:prefLabel "strukturell unkomplizierte Korrespondenz zu vertrauten"@de.
+	rdfs:comment "2.1";
+	rdfs:subClassOf n1:ae9;
+	rdfs:label "strukturell unkomplizierte Korrespondenz zu vertrauten"@de.
 n1:hep
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "2.2";
-	skos:broader n1:ae9;
-	skos:prefLabel "in strukturell unkomplizierten Gebrauchstexten wichtige"@de.
+	rdfs:comment "2.2";
+	rdfs:subClassOf n1:ae9;
+	rdfs:label "in strukturell unkomplizierten Gebrauchstexten wichtige"@de.
 n1:uvx
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "2.3";
-	skos:broader n1:ae9;
-	skos:prefLabel "klar formulierte Anleitungen"@de.
+	rdfs:comment "2.3";
+	rdfs:subClassOf n1:ae9;
+	rdfs:label "klar formulierte Anleitungen"@de.
 n1:xsd
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "2.4";
-	skos:broader n1:ae9;
-	skos:prefLabel "strukturell unkomplizierte Sachtexten"@de.
+	rdfs:comment "2.4";
+	rdfs:subClassOf n1:ae9;
+	rdfs:label "strukturell unkomplizierte Sachtexten"@de.
 n1:x5q
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "2.5";
-	skos:broader n1:ae9;
-	skos:prefLabel "in strukturell unkomplizierten literarisch"@de.
+	rdfs:comment "2.5";
+	rdfs:subClassOf n1:ae9;
+	rdfs:label "in strukturell unkomplizierten literarisch"@de.
 n1:y66
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "2.6";
-	skos:broader n1:ae9;
-	skos:prefLabel "das eigene emotionale Erleben"@de.
+	rdfs:comment "2.6";
+	rdfs:subClassOf n1:ae9;
+	rdfs:label "das eigene emotionale Erleben"@de.
 n1:a4z
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "2.7";
-	skos:broader n1:ae9;
-	skos:prefLabel "beim Lesen auf ihnen vertraute (digitale) Werkzeuge"@de.
+	rdfs:comment "2.7";
+	rdfs:subClassOf n1:ae9;
+	rdfs:label "beim Lesen auf ihnen vertraute (digitale) Werkzeuge"@de.
 n1:pbq
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "2.8";
-	skos:broader n1:ae9;
-	skos:prefLabel "die Bedeutung unbekannter Wörter in einem Text"@de.
+	rdfs:comment "2.8";
+	rdfs:subClassOf n1:ae9;
+	rdfs:label "die Bedeutung unbekannter Wörter in einem Text"@de.
 n1:u7r
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "2.9";
-	skos:broader n1:ae9;
-	skos:prefLabel "mit Hilfe von Hinweisen in Texten und der Aufgabe"@de.
+	rdfs:comment "2.9";
+	rdfs:subClassOf n1:ae9;
+	rdfs:label "mit Hilfe von Hinweisen in Texten und der Aufgabe"@de.
 n1:fqt
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "2.10";
-	skos:broader n1:ae9;
-	skos:prefLabel "die in einer Sprache/weiteren Sprachen verfügbaren Kenntnisse"@de.
+	rdfs:comment "2.10";
+	rdfs:subClassOf n1:ae9;
+	rdfs:label "die in einer Sprache/weiteren Sprachen verfügbaren Kenntnisse"@de.
 n1:ae9
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "2";
-	skos:topConceptOf n0:;
-	skos:prefLabel "Leseverstehen"@de; 
-	skos:description "Das Leseverstehen ermöglicht die Teilhabe"@de ;
-	skos:narrower 
+	rdfs:comment "2";
+	rdfs:subClassOf n0:;
+	rdfs:label "Leseverstehen"@de; 
+	rdfs:label "Das Leseverstehen ermöglicht die Teilhabe"@de ;
+	rdfs:superClassOf 
 		n1:duq,
 		n1:hep,
 		n1:uvx,
@@ -138,149 +138,149 @@ n1:ae9
 		n1:u7r,
 		n1:fqt.
 n1:d92
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "3.1.1";
-	skos:broader n1:v5e;
-	skos:prefLabel "spontan und flüssig an Gesprächen zu vertraute"@de.
+	rdfs:comment "3.1.1";
+	rdfs:subClassOf n1:v5e;
+	rdfs:label "spontan und flüssig an Gesprächen zu vertraute"@de.
 n1:rty
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "3.1.2";
-	skos:broader n1:v5e;
-	skos:prefLabel "an mündlichen Interaktionsformen teilnehmen"@de.
+	rdfs:comment "3.1.2";
+	rdfs:subClassOf n1:v5e;
+	rdfs:label "an mündlichen Interaktionsformen teilnehmen"@de.
 n1:9bs
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "3.1.3.1";
-	skos:broader n1:4f7;
-	skos:prefLabel "in einem Alltagsgespräch klar artikulierte Standardsprache verstehen"@de.
+	rdfs:comment "3.1.3.1";
+	rdfs:subClassOf n1:4f7;
+	rdfs:label "in einem Alltagsgespräch klar artikulierte Standardsprache verstehen"@de.
 n1:dec
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "3.1.3.2.1";
-	skos:broader n1:f49;
-	skos:prefLabel "unkomplizierte Sachinformationen über vertraute Themen adressaten"@de.
+	rdfs:comment "3.1.3.2.1";
+	rdfs:subClassOf n1:f49;
+	rdfs:label "unkomplizierte Sachinformationen über vertraute Themen adressaten"@de.
 n1:zay
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "3.1.3.2.2";
-	skos:broader n1:f49;
-	skos:prefLabel "(digitale) Hilfsmittel nutzen, um relativ einfache"@de.
+	rdfs:comment "3.1.3.2.2";
+	rdfs:subClassOf n1:f49;
+	rdfs:label "(digitale) Hilfsmittel nutzen, um relativ einfache"@de.
 n1:pza
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "3.1.3.2.3.1";
-	skos:broader n1:773;
-	skos:prefLabel "sprachlich oder inhaltlich ähnliche Wörter verwenden"@de.
+	rdfs:comment "3.1.3.2.3.1";
+	rdfs:subClassOf n1:773;
+	rdfs:label "sprachlich oder inhaltlich ähnliche Wörter verwenden"@de.
 n1:3sr
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "3.1.3.2.3.2.1";
-	skos:broader n1:cux;
-	skos:prefLabel "die in einer Sprache/weiteren Sprachen verfügbaren Kenntniss"@de.
+	rdfs:comment "3.1.3.2.3.2.1";
+	rdfs:subClassOf n1:cux;
+	rdfs:label "die in einer Sprache/weiteren Sprachen verfügbaren Kenntniss"@de.
 n1:a7f
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "3.1.3.2.3.2.2";
-	skos:broader n1:cux;
-	skos:prefLabel "die in einer Sprache/weiteren Sprachen verfügbaren Kenntniss"@de.
+	rdfs:comment "3.1.3.2.3.2.2";
+	rdfs:subClassOf n1:cux;
+	rdfs:label "die in einer Sprache/weiteren Sprachen verfügbaren Kenntniss"@de.
 n1:cux
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "3.1.3.2.3.2";
-	skos:broader n1:773;
-	skos:prefLabel "ein strukturell unkompliziertes Gespräch"@de;
-	skos:narrower 
+	rdfs:comment "3.1.3.2.3.2";
+	rdfs:subClassOf n1:773;
+	rdfs:label "ein strukturell unkompliziertes Gespräch"@de;
+	rdfs:superClassOf 
 		n1:3sr,
 		n1:a7f.
 n1:773
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "3.1.3.2.3";
-	skos:broader n1:f49;
-	skos:prefLabel "neue Ausdrücke und Kombinationen von Ausdrücken einüben"@de;
-	skos:narrower 
+	rdfs:comment "3.1.3.2.3";
+	rdfs:subClassOf n1:f49;
+	rdfs:label "neue Ausdrücke und Kombinationen von Ausdrücken einüben"@de;
+	rdfs:superClassOf 
 		n1:pza,
 		n1:cux.
 n1:f49
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "3.1.3.2";
-	skos:broader n1:4f7;
-	skos:prefLabel "an routinemäßigen formellen Diskussionen über vertraute Themen teilnehmen"@de;
-	skos:narrower 
+	rdfs:comment "3.1.3.2";
+	rdfs:subClassOf n1:4f7;
+	rdfs:label "an routinemäßigen formellen Diskussionen über vertraute Themen teilnehmen"@de;
+	rdfs:superClassOf 
 		n1:dec,
 		n1:zay,
 		n1:773.
 n1:4f7
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "3.1.3";
-	skos:broader n1:v5e;
-	skos:prefLabel "ein strukturell unkompliziertes Gespräch auch ohne Vorbereitung unter Berücksichtigung"@de;
-	skos:narrower 
+	rdfs:comment "3.1.3";
+	rdfs:subClassOf n1:v5e;
+	rdfs:label "ein strukturell unkompliziertes Gespräch auch ohne Vorbereitung unter Berücksichtigung"@de;
+	rdfs:superClassOf 
 		n1:9bs,
 		n1:f49.
 n1:v5e
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "3.1";
-	skos:broader n1:34d;
-	skos:prefLabel "Mündliche Interaktion"@de;
-	skos:narrower 
+	rdfs:comment "3.1";
+	rdfs:subClassOf n1:34d;
+	rdfs:label "Mündliche Interaktion"@de;
+	rdfs:superClassOf 
 		n1:d92,
 		n1:rty,
 		n1:4f7.
 n1:9b2
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "3.2.1";
-	skos:broader n1:2x5;
-	skos:prefLabel "weitgehend flüssig strukturell unkomplizierte"@de.
+	rdfs:comment "3.2.1";
+	rdfs:subClassOf n1:2x5;
+	rdfs:label "weitgehend flüssig strukturell unkomplizierte"@de.
 n1:aug
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "3.2.2";
-	skos:broader n1:2x5;
-	skos:prefLabel "zu verschiedenen vertrauten Themen des eigenen"@de.
+	rdfs:comment "3.2.2";
+	rdfs:subClassOf n1:2x5;
+	rdfs:label "zu verschiedenen vertrauten Themen des eigenen"@de.
 n1:hfr
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "3.2.3";
-	skos:broader n1:2x5;
-	skos:prefLabel "die Hauptaspekte einer Idee oder eines Problems"@de.
+	rdfs:comment "3.2.3";
+	rdfs:subClassOf n1:2x5;
+	rdfs:label "die Hauptaspekte einer Idee oder eines Problems"@de.
 n1:czt
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "3.2.4";
-	skos:broader n1:2x5;
-	skos:prefLabel "für Ansichten, Pläne oder Handlungen"@de.
+	rdfs:comment "3.2.4";
+	rdfs:subClassOf n1:2x5;
+	rdfs:label "für Ansichten, Pläne oder Handlungen"@de.
 n1:u7p
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "3.2.5";
-	skos:broader n1:2x5;
-	skos:prefLabel "vorbereitete Präsentationen zu vertrauten Themen"@de.
+	rdfs:comment "3.2.5";
+	rdfs:subClassOf n1:2x5;
+	rdfs:label "vorbereitete Präsentationen zu vertrauten Themen"@de.
 n1:q45
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "3.2.6";
-	skos:broader n1:2x5;
-	skos:prefLabel "(digitale) Hilfsmittel in der Regel selbstständig nutzen"@de.
+	rdfs:comment "3.2.6";
+	rdfs:subClassOf n1:2x5;
+	rdfs:label "(digitale) Hilfsmittel in der Regel selbstständig nutzen"@de.
 n1:rep
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "3.2.7";
-	skos:broader n1:2x5;
-	skos:prefLabel "ihre begrenzten Kompetenzen"@de.
+	rdfs:comment "3.2.7";
+	rdfs:subClassOf n1:2x5;
+	rdfs:label "ihre begrenzten Kompetenzen"@de.
 n1:2x5
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "3.2";
-	skos:broader n1:34d;
-	skos:prefLabel "Mündliche Produktion"@de;
-	skos:narrower 
+	rdfs:comment "3.2";
+	rdfs:subClassOf n1:34d;
+	rdfs:label "Mündliche Produktion"@de;
+	rdfs:superClassOf 
 		n1:9b2,
 		n1:aug,
 		n1:hfr,
@@ -289,88 +289,88 @@ n1:2x5
 		n1:q45,
 		n1:rep.
 n1:34d
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "3";
-	skos:topConceptOf n0:;
-	skos:prefLabel "Sprechen"@de; 
-	skos:description "Sprechen ist auf die Produktion mündlicher Texte ausgerichtet"@de ;
-	skos:narrower 
+	rdfs:comment "3";
+	rdfs:subClassOf n0:;
+	rdfs:label "Sprechen"@de; 
+	rdfs:label "Sprechen ist auf die Produktion mündlicher Texte ausgerichtet"@de ;
+	rdfs:superClassOf 
 		n1:v5e,
 		n1:2x5.
 n1:6yb
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "4.1.1";
-	skos:broader n1:fxh;
-	skos:prefLabel "adressaten-, situations- und zweckangemessen in einfachen Texten"@de.
+	rdfs:comment "4.1.1";
+	rdfs:subClassOf n1:fxh;
+	rdfs:label "adressaten-, situations- und zweckangemessen in einfachen Texten"@de.
 n1:2vp
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "4.1.2";
-	skos:broader n1:fxh;
-	skos:prefLabel "in persönlichen Korrespondenzen einfache Informationen"@de.
+	rdfs:comment "4.1.2";
+	rdfs:subClassOf n1:fxh;
+	rdfs:label "in persönlichen Korrespondenzen einfache Informationen"@de.
 n1:c64
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "4.1.3";
-	skos:broader n1:fxh;
-	skos:prefLabel "persönliche Korrespondenzen verfassen und darin detailliert über Erfahrungen"@de.
+	rdfs:comment "4.1.3";
+	rdfs:subClassOf n1:fxh;
+	rdfs:label "persönliche Korrespondenzen verfassen und darin detailliert über Erfahrungen"@de.
 n1:chh
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "4.1.4";
-	skos:broader n1:fxh;
-	skos:prefLabel "adressaten-, situations- und zweckangemessen Notizen"@de.
+	rdfs:comment "4.1.4";
+	rdfs:subClassOf n1:fxh;
+	rdfs:label "adressaten-, situations- und zweckangemessen Notizen"@de.
 n1:25x
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "4.1.5";
-	skos:broader n1:fxh;
-	skos:prefLabel "formelle Schreiben, die inhaltlich, sprachlich"@de.
+	rdfs:comment "4.1.5";
+	rdfs:subClassOf n1:fxh;
+	rdfs:label "formelle Schreiben, die inhaltlich, sprachlich"@de.
 n1:yug
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "4.1.6";
-	skos:broader n1:fxh;
-	skos:prefLabel "Beitrag zu einer Online-Diskussion über ein vertrautes Thema"@de.
+	rdfs:comment "4.1.6";
+	rdfs:subClassOf n1:fxh;
+	rdfs:label "Beitrag zu einer Online-Diskussion über ein vertrautes Thema"@de.
 n1:egb
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "4.1.7";
-	skos:broader n1:fxh;
-	skos:prefLabel "in der Regel selbständig erklären, warum bestimmte Teile"@de.
+	rdfs:comment "4.1.7";
+	rdfs:subClassOf n1:fxh;
+	rdfs:label "in der Regel selbständig erklären, warum bestimmte Teile"@de.
 n1:5yc
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "4.1.8";
-	skos:broader n1:fxh;
-	skos:prefLabel "(digitale) Hilfsmittel in der Regel selbstständig nutzen"@de.
+	rdfs:comment "4.1.8";
+	rdfs:subClassOf n1:fxh;
+	rdfs:label "(digitale) Hilfsmittel in der Regel selbstständig nutzen"@de.
 n1:5uq
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "4.1.9";
-	skos:broader n1:fxh;
-	skos:prefLabel "sprachlich oder inhaltlich ähnliche Wörter verwenden"@de.
+	rdfs:comment "4.1.9";
+	rdfs:subClassOf n1:fxh;
+	rdfs:label "sprachlich oder inhaltlich ähnliche Wörter verwenden"@de.
 n1:3fh
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "4.1.10";
-	skos:broader n1:fxh;
-	skos:prefLabel "andere um Erklärung, mehr Details oder Wiederholung"@de.
-n1:4bs
-	 a skos:Concept;
+	rdfs:comment "4.1.10";
+	rdfs:subClassOf n1:fxh;
+	rdfs:label "andere um Erklärung, mehr Details oder Wiederholung"@de.
+n1:b6r
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "4.1.11";
-	skos:broader n1:fxh;
-	skos:prefLabel "die in einer Sprache/weiteren Sprachen verfügbaren Kenntnisse"@de.
+	rdfs:comment "4.1.11";
+	rdfs:subClassOf n1:fxh;
+	rdfs:label "die in einer Sprache/weiteren Sprachen verfügbaren Kenntnisse"@de.
 n1:fxh
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "4.1";
-	skos:broader n1:q3p;
-	skos:prefLabel "Schriftliche Interaktion"@de;
-	skos:narrower 
+	rdfs:comment "4.1";
+	rdfs:subClassOf n1:q3p;
+	rdfs:label "Schriftliche Interaktion"@de;
+	rdfs:superClassOf 
 		n1:6yb,
 		n1:2vp,
 		n1:c64,
@@ -381,104 +381,104 @@ n1:fxh
 		n1:5yc,
 		n1:5uq,
 		n1:3fh,
-		n1:4bs.
-n1:v9g
-	 a skos:Concept;
+		n1:b6r.
+n1:h6y
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "4.2.1";
-	skos:broader n1:ycc;
-	skos:prefLabel "strukturell unkomplizierte, zusammenhängende Texte zu vertrauten"@de.
+	rdfs:comment "4.2.1";
+	rdfs:subClassOf n1:ycc;
+	rdfs:label "strukturell unkomplizierte, zusammenhängende Texte zu vertrauten"@de.
 n1:esr
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "4.2.2";
-	skos:broader n1:ycc;
-	skos:prefLabel "Beschreibungen eines realen"@de.
+	rdfs:comment "4.2.2";
+	rdfs:subClassOf n1:ycc;
+	rdfs:label "Beschreibungen eines realen"@de.
 n1:9g3
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "4.2.3";
-	skos:broader n1:ycc;
-	skos:prefLabel "in einem üblichen Standardformat kurze Berichte verfassen"@de.
+	rdfs:comment "4.2.3";
+	rdfs:subClassOf n1:ycc;
+	rdfs:label "in einem üblichen Standardformat kurze Berichte verfassen"@de.
 n1:ftb
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "4.2.4";
-	skos:broader n1:ycc;
-	skos:prefLabel "(digitale) Hilfsmittel in der Regel selbstständig nutzen"@de.
+	rdfs:comment "4.2.4";
+	rdfs:subClassOf n1:ycc;
+	rdfs:label "(digitale) Hilfsmittel in der Regel selbstständig nutzen"@de.
 n1:7z6
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "4.2.5";
-	skos:broader n1:ycc;
-	skos:prefLabel "das eigene Repertoire an sprachlichen Mitteln mit Hilfe (digitaler) Werkzeuge"@de.
+	rdfs:comment "4.2.5";
+	rdfs:subClassOf n1:ycc;
+	rdfs:label "das eigene Repertoire an sprachlichen Mitteln mit Hilfe (digitaler) Werkzeuge"@de.
 n1:qt3
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "4.2.6";
-	skos:broader n1:ycc;
-	skos:prefLabel "die in einer Sprache/weiteren Sprachen verfügbaren Kenntnisse"@de.
+	rdfs:comment "4.2.6";
+	rdfs:subClassOf n1:ycc;
+	rdfs:label "die in einer Sprache/weiteren Sprachen verfügbaren Kenntnisse"@de.
 n1:ycc
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "4.2";
-	skos:broader n1:q3p;
-	skos:prefLabel "Schriftliche Produktion"@de;
-	skos:narrower 
-		n1:v9g,
+	rdfs:comment "4.2";
+	rdfs:subClassOf n1:q3p;
+	rdfs:label "Schriftliche Produktion"@de;
+	rdfs:superClassOf 
+		n1:h6y,
 		n1:esr,
 		n1:9g3,
 		n1:ftb,
 		n1:7z6,
 		n1:qt3.
 n1:q3p
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "4";
-	skos:topConceptOf n0:;
-	skos:prefLabel "Schreiben"@de; 
-	skos:description "Schreiben ist auf die Produktion schriftlicher"@de ;
-	skos:narrower 
+	rdfs:comment "4";
+	rdfs:subClassOf n0:;
+	rdfs:label "Schreiben"@de; 
+	rdfs:label "Schreiben ist auf die Produktion schriftlicher"@de ;
+	rdfs:superClassOf 
 		n1:fxh,
 		n1:ycc.
 n1:veq
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "5.1";
-	skos:broader n1:z55;
-	skos:prefLabel "in beide Richtungen zwischen Deutsch und der ersten Fremdsprache"@de.
+	rdfs:comment "5.1";
+	rdfs:subClassOf n1:z55;
+	rdfs:label "in beide Richtungen zwischen Deutsch und der ersten Fremdsprache"@de.
 n1:9a5
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "5.2";
-	skos:broader n1:z55;
-	skos:prefLabel "Interaktionen voranbringen, indem sie andere Menschen einladen"@de.
+	rdfs:comment "5.2";
+	rdfs:subClassOf n1:z55;
+	rdfs:label "Interaktionen voranbringen, indem sie andere Menschen einladen"@de.
 n1:hu7
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "5.3";
-	skos:broader n1:z55;
-	skos:prefLabel "einfache Gespräche für Menschen verschiedener Herkunft"@de.
+	rdfs:comment "5.3";
+	rdfs:subClassOf n1:z55;
+	rdfs:label "einfache Gespräche für Menschen verschiedener Herkunft"@de.
 n1:t64
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "5.4";
-	skos:broader n1:z55;
-	skos:prefLabel "in Sprachmittlungs- bzw. Mediationssituationen"@de.
+	rdfs:comment "5.4";
+	rdfs:subClassOf n1:z55;
+	rdfs:label "in Sprachmittlungs- bzw. Mediationssituationen"@de.
 n1:6cb
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "5.5";
-	skos:broader n1:z55;
-	skos:prefLabel "strategisch und zielführend in Sprachmittlungs- bzw. Mediationssituationen"@de.
+	rdfs:comment "5.5";
+	rdfs:subClassOf n1:z55;
+	rdfs:label "strategisch und zielführend in Sprachmittlungs- bzw. Mediationssituationen"@de.
 n1:z55
-	 a skos:Concept;
+	 a owl:Class;
 	skos:inScheme n0:;
-	skos:notation "5";
-	skos:topConceptOf n0:;
-	skos:prefLabel "Mediation / Sprachmittlung"@de; 
-	skos:description "Mediation ist ein interaktiver Prozess"@de ;
-	skos:narrower 
+	rdfs:comment "5";
+	rdfs:subClassOf n0:;
+	rdfs:label "Mediation / Sprachmittlung"@de; 
+	rdfs:label "Mediation ist ein interaktiver Prozess"@de ;
+	rdfs:superClassOf 
 		n1:veq,
 		n1:9a5,
 		n1:hu7,
@@ -488,7 +488,8 @@ n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
 	dct:title "Vokabulare zur Beschreibung des Itemformates - Itemformat 7er Liste"@de;
-	skos:hasTopConcept
+	dct:description "Itemformat 7er Liste description"@de;
+	rdfs:superClassOf
 		n1:xzb,
 		n1:ae9,
 		n1:34d,
