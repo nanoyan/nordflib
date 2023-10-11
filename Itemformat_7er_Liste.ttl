@@ -125,7 +125,6 @@ n1:ae9
 	rdfs:comment "2";
 	rdfs:subClassOf n0:;
 	rdfs:label "Leseverstehen"@de; 
-	rdfs:label "Das Leseverstehen ermöglicht die Teilhabe"@de ;
 	rdfs:superClassOf 
 		n1:duq,
 		n1:hep,
@@ -293,8 +292,7 @@ n1:34d
 	skos:inScheme n0:;
 	rdfs:comment "3";
 	rdfs:subClassOf n0:;
-	rdfs:label "Sprechen"@de; 
-	rdfs:label "Sprechen ist auf die Produktion mündlicher Texte ausgerichtet"@de ;
+	rdfs:label "Sprechen"@de;
 	rdfs:superClassOf 
 		n1:v5e,
 		n1:2x5.
@@ -436,8 +434,7 @@ n1:q3p
 	skos:inScheme n0:;
 	rdfs:comment "4";
 	rdfs:subClassOf n0:;
-	rdfs:label "Schreiben"@de; 
-	rdfs:label "Schreiben ist auf die Produktion schriftlicher"@de ;
+	rdfs:label "Schreiben"@de;
 	rdfs:superClassOf 
 		n1:fxh,
 		n1:ycc.
@@ -476,8 +473,7 @@ n1:z55
 	skos:inScheme n0:;
 	rdfs:comment "5";
 	rdfs:subClassOf n0:;
-	rdfs:label "Mediation / Sprachmittlung"@de; 
-	rdfs:label "Mediation ist ein interaktiver Prozess"@de ;
+	rdfs:label "Mediation / Sprachmittlung"@de;
 	rdfs:superClassOf 
 		n1:veq,
 		n1:9a5,
@@ -488,7 +484,6 @@ n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
 	dct:title "Vokabulare zur Beschreibung des Itemformates - Itemformat 7er Liste"@de;
-	dct:description "Itemformat 7er Liste description"@de;
 	rdfs:superClassOf
 		n1:xzb,
 		n1:ae9,
