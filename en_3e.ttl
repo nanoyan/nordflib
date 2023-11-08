@@ -1,0 +1,39 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix n0: <https://w3id.org/iqb/v34/3e/>. 
+@prefix n1: <https://w3id.org/iqb/v34/3e/>. 
+
+n1:g5g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "geschlossen"@de,
+	"closed"@en;
+.
+n1:p4x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "halfoffen"@de,
+	"half open"@en;
+.
+n1:h4d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "offen"@de,
+	"open"@en;
+.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de,
+	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@en;
+	dct:title "Vokabulare zur Beschreibung des Itemformates - Itemformat 3er Liste"@de,
+	"Descriptive vocabulary for itemformat - List of 3 Itemformat"@en;
+	skos:hasTopConcept
+		n1:g5g,
+		n1:p4x,
+		n1:h4d.
