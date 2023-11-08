@@ -9,24 +9,27 @@ n1:g5g
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "geschlossen"@de,
-	"closed"@en;
-.
+	"closed"@en; 
+	skos:definition "desc 1"@de,
+	"desc 2"@en. 
 n1:p4x
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "halfoffen"@de,
-	"half open"@en;
-.
+	"half open"@en; 
+	skos:definition "desc 1"@de,
+	"desc 2"@en. 
 n1:h4d
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "offen"@de,
-	"open"@en;
-.
+	"open"@en; 
+	skos:definition "desc 1"@de,
+	"desc 2"@en. 
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de,
