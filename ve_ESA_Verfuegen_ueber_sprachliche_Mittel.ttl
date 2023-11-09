@@ -32,7 +32,7 @@ n1:a3y
 	skos:inScheme n0:;
 	skos:notation "1.5";
 	skos:broader n1:y7b;
-	skos:prefLabel "die meisten Wörter aus ihrem Wortschatz korrekt oder zumindest phonetisch im Wesentlichen akkurat schriftlich wiedergeben."@de.
+	skos:prefLabel "die meisten Wörter aus ihrem Wortschatz korrekt oder zumindest ,phonetisch' im Wesentlichen akkurat schriftlich wiedergeben."@de.
 n1:d4v
 	 a skos:Concept;
 	skos:inScheme n0:;
