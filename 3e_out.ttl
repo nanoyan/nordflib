@@ -6,19 +6,19 @@
 n1:p3g
 	 a skos:Concept;
 	skos:inScheme n0:;
-	skos:notation "I";
+	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "geschlossen"@de.
 n1:u5e
 	 a skos:Concept;
 	skos:inScheme n0:;
-	skos:notation "II";
+	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "halfoffen"@de.
 n1:e4a
 	 a skos:Concept;
 	skos:inScheme n0:;
-	skos:notation "III";
+	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "offen"@de.
 n0:
