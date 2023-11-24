@@ -80,7 +80,8 @@ n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
 	dct:title "Vokabulare zur Beschreibung des Itemformates - Itemformat Englisch Sek I"@de;
-	dct:description "Itemformat Englisch Sek I and description modified and long text "@de;
+	dct:description "Itemformat Englisch Sek I and description modified and long text "@
+                            de;
 	skos:hasTopConcept
 		n1:5c4,
 		n1:re4,
