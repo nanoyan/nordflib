@@ -57,8 +57,7 @@ n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
 	dct:title "Vokabulare zur Beschreibung des Itemformates - Itemformat 7er Liste"@de;
-	dct:description "Itemformat 7er Liste description"@
-                            de;
+	dct:description "Itemformat 7er Liste description"@de;
 	skos:hasTopConcept
 		n1:xzb,
 		n1:ae9.
