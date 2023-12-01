@@ -48,7 +48,7 @@ n1:ae9
 	skos:notation "2";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Leseverstehen"@de; 
-	skos:definition """Das Leseverstehen ermöglicht die Teilhabe
+	skos:definition """Das Leseverstehen ermöglicht die Teilhaben
 			hola """@de;
 	skos:narrower 
 		n1:duq,
