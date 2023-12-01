@@ -29,7 +29,9 @@ n1:duq
 	skos:inScheme n0:;
 	skos:notation "2.1";
 	skos:broader n1:ae9;
-	skos:prefLabel "strukturell unkomplizierte Korrespondenz zu vertrauten"@de.
+	skos:prefLabel """strukturell unkomplizierte Korrespondenz zu vertrauten
+			1. 
+			2. """@de.
 n1:hep
 	 a skos:Concept;
 	skos:inScheme n0:;
