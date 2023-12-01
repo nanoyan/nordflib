@@ -29,9 +29,7 @@ n1:duq
 	skos:inScheme n0:;
 	skos:notation "2.1";
 	skos:broader n1:ae9;
-	skos:prefLabel """strukturell unkomplizierte Korrespondenz zu vertrauten
-			1. 
-			2. """@de.
+	skos:prefLabel "strukturell unkomplizierte Korrespondenz zu vertrauten"@de.
 n1:hep
 	 a skos:Concept;
 	skos:inScheme n0:;
@@ -50,7 +48,8 @@ n1:ae9
 	skos:notation "2";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Leseverstehen"@de; 
-	skos:definition "Das Leseverstehen ermöglicht die Teilhabe"@de;
+	skos:definition """Das Leseverstehen ermöglicht die Teilhabe
+			hola """@de;
 	skos:narrower 
 		n1:duq,
 		n1:hep,
