@@ -38,8 +38,7 @@ n1:f4u
 	skos:inScheme n0:;
 	skos:notation "6";
 	skos:topConceptOf n0:;
-	skos:prefLabel """ihre zur Verfügung stehende interkulturelle Bewusstheit in Alltagskontexten reflektieren,\n\n um mit einer unerwarteten Situation umgehen zu können. \n\n Mitunter benötigen sie dabei Hinweise und Unterstützung."""@de;
-	skos:definition """ihre zur Verfügung stehende interkulturelle Bewusstheit in Alltagskontexten reflektieren,\n\n um mit einer unerwarteten Situation umgehen zu können. \n\n Mitunter benötigen sie dabei Hinweise und Unterstützung."""@de.
+	skos:prefLabel "ihre zur Verfügung stehende interkulturelle Bewusstheit in Alltagskontexten reflektieren, um mit einer unerwarteten Situation umgehen zu können. Mitunter benötigen sie dabei Hinweise und Unterstützung."@de.
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
