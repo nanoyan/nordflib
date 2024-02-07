@@ -1,0 +1,59 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix n0: <https://w3id.org/iqb/v85/zu/>. 
+@prefix n1: <https://w3id.org/iqb/v85/zu/>. 
+
+n1:1
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Freier Zugang"@de; 
+	skos:definition "Es existieren keinerlei Zugangsbeschränkungen. Die Daten sind frei zugänglich. "@de.
+n1:2
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Registrierung"@de; 
+	skos:definition "Eine Registrierung, unter Abfrage spezifischer Nutzer*innenangaben, die vom FDZ festgelegt werden, ist Bedingung, um auf Daten zugreifen zu können. Die Registrierung ist je nach Bestimmungen des FDZ für jedermann offen oder auf einen bestimmten Nutzer*innenkreis (z. B. Forschende, Angehörige einer Hochschule etc.) eingeschränkt. Die Registrierung ist ein eigenständiger Schritt im Verfahren, um auf Daten zugreifen zu können und mit dem Anlegen eines Nutzer*innenkontos verbunden. Im Falle von Campus Files ist hingegen eine vereinfachte Registrierung via E-Mail möglich. Voraussetzung hierfür ist eine wissenschaftliche/universitäre Institutszugehörigkeit."@de.
+n1:3
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Nutzungsantrag"@de; 
+	skos:definition "Für den Zugriff auf Daten muss ein Antrag gestellt werden (online oder schriftlich). Im Antrag muss u. a. der Nutzungszweck oder - falls die Nutzung auf Forschung und Lehre eingeschränkt ist - das Forschungsinteresse und der wissenschaftliche Nutzungszweck der Daten dargestellt werden. "@de.
+n1:4
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Download / Lieferung"@de; 
+	skos:definition "Off-Site-Nutzung – Übermittlung der Daten zum*r Nutzer*in"@de.
+n1:5
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Gastwissenschaftlerarbeitsplatz"@de; 
+	skos:definition "On-Site-Nutzung – Keine Übermittlung der Daten zum*r Nutzer*in"@de.
+n1:6
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Datenfernverarbeitung (Remote Access)"@de; 
+	skos:definition "On-Site-Nutzung – Keine Übermittlung der Daten zum*r Nutzer*in"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Verbund FDB-CV  - Zugriff"@de;
+	dct:description "Zugangsbedingungen und Zugriffswege in den FDZ des VerbundFDB auf Forschungsdaten"@de;
+	skos:hasTopConcept
+		n1:1,
+		n1:2,
+		n1:3,
+		n1:4,
+		n1:5,
+		n1:6.

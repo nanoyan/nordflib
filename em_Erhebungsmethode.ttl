@@ -1,0 +1,95 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix n0: <https://w3id.org/iqb/v85/em/>. 
+@prefix n1: <https://w3id.org/iqb/v85/em/>. 
+
+n1:1
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Rezeptives Interview"@de.
+n1:2
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Problemzentriertes Interview"@de.
+n1:3
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Leitfadeninterview"@de.
+n1:4
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Narratives Interview"@de.
+n1:5
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Tiefeninterview"@de.
+n1:6
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Episodisches Interview"@de.
+n1:7
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Halbstandardisiertes Interview"@de.
+n1:8
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Erzählgenerierendes Interview"@de.
+n1:9
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Ethnografisches Interview"@de.
+n1:10
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Fokussiertes Interview"@de.
+n1:12
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Experteninterview"@de.
+n1:11
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Ero-episches Gespräch"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Verbund FDB-CV  - Erhebungsmethode"@de;
+	dct:description "Kontrolliertes Vokabular VerbundFDB: Erhebungsmethode"@de;
+	skos:hasTopConcept
+		n1:1,
+		n1:2,
+		n1:3,
+		n1:4,
+		n1:5,
+		n1:6,
+		n1:7,
+		n1:8,
+		n1:9,
+		n1:10,
+		n1:12,
+		n1:11.

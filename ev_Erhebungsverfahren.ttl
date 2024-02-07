@@ -1,0 +1,579 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix n0: <https://w3id.org/iqb/v85/ev/>. 
+@prefix n1: <https://w3id.org/iqb/v85/ev/>. 
+
+n1:1
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview"@de; 
+	skos:definition "Eine vorab geplante Kommunikation zwischen zwei (oder mehreren) Personen - dem/den Interviewer(n) und dem/den Befragten-in der der/die Interviewer von dem/den Interviewpartner(n) Informationen erhält/erhalten. Wenn Gruppeninteraktion Teil der Erhebungsmethode ist, verwenden Siedie Kategorie"Fokusgruppe"."@de.
+n1:2
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Persönliches Interview"@de; 
+	skos:definition "Datenererhebungsmethode, in der ein Interviewer von Angesicht zu Angesicht ein persönliches Interview führt, Fragen stellt und die Antworten eingibt. Verwenden Sie diesen umfassenden Begriff, wenn es sich nicht um CAPI oder PAPI handelt, oder wenn nicht bekannt ist, ob es CAPI/PAPI ist."@de.
+n1:3
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Persönliches Interview: CAPI (Computerunterstützte persönliche Befragung)/CAMI (Computerunterstützte mobile Befragung)"@de; 
+	skos:definition "Computergestützte persönliche Befragung (CAPI). Datenererhebungsmethode, in der der Interviewer Fragen an die Befragten vom Bildschirm eines Computers, Laptops oder mobilen Geräts wie Tablet oder Smartphone abliest und die Antworten in dasselbeGerät eingibt.Die Interviewführung wird durch ein/e speziell entworfene/s Programm/Anwendunggeleitet."@de.
+n1:4
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Persönliches Interview: PAPI (Papierfragebogen)"@de; 
+	skos:definition "Papier-und-Bleistift-Befragung. Der Interviewer benutzt einen traditionellen Papierfragebogen, um die Fragen vorzulesen und die Antworten einzugeben."@de.
+n1:5
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Telefonisches Interview"@de; 
+	skos:definition "Das am Telefon geführte Interview. Verwenden Sie diesen umfassenden Begriff, wenn es sich bei der Datenerhebungsmethodenicht um CATI handelt, oder wenn nicht bekannt ist, ob es CATI ist oder nicht."@de.
+n1:6
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Telefonisches Interview: CATI (Computerunterstützte telefonische Befragung)"@de; 
+	skos:definition "Computergestütztes Telefoninterview. Der Interviewer stellt Fragen, die vom Computer vorgegeben sind, Antworten werden direkt in den Computer eingegeben unddie Interviewführung wird von einem speziell entworfenen Programmgeleitet."@de.
+n1:7
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: E-mail Interview"@de; 
+	skos:definition "Interviews, die viaE-Mail durchgeführt werden, in der Regel bestehen sie aus mehreren E-Mail-Nachrichten, die es ermöglichen, dass die Diskussion über die ersten Fragen und Antworten oder den ersten E-Mail-Austausch hinausgeht."@de.
+n1:8
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Web-basiertes Interview"@de; 
+	skos:definition "Ein Interview, das über das Internet durchgeführt wird. Zum Beispiel, Interviews, die in Online-Foren durchgeführt werden oder in denen web-basierte audio-visuelle Technologien genutzt werden, die esdem/den Interviewer(n) und Befragten ermöglichen, miteinander in Echtzeit zu kommunizieren."@de.
+n1:9
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Eigenständig auszufüllender Fragebogen"@de; 
+	skos:definition "Datenerhebungsmethode, bei der der Befragte die Fragen selbst liest oder diese hört und die Antworten selbst eingibt; Kein Interviewer ist dabeianwesend oder nimmt an derFragebogenbearbeitungteil. Wenn möglich, verwenden Sie einenengergefassten Begriff.Verwenden Sie diesenweiter gefasstenBegriff, falls die Methode nicht durch irgendwelchederengergefasstenBegriffe beschrieben wird - zum Beispiel für PDF- und Diskettenfragebögen."@de.
+n1:10
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Eigenständig auszufüllender Fragebogen: E-mail"@de; 
+	skos:definition "Selbstverwaltete Umfrage, bei der Fragen dem Befragten in der E-Mail oder im Anhang einer E-Mail, aber nicht als Link zu einem webbasierten Fragebogen dargestellt werden. Befragte schicken die Antwortenauch per E-Mail, als E-Mail-Text oderalsAnhang zurück."@de.
+n1:11
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Eigenständig auszufüllender Fragebogen: Papier"@de; 
+	skos:definition "Selbstverwaltete Umfrage unter Anwendung eines traditionellen Papierfragebogens, der per Post (Postdienste) oder per Fax versandt oder persönlich von einem Interviewer überbracht oder von einemBefragten abgeholt wurde."@de.
+n1:12
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Eigenständig auszufüllender Fragebogen: SMS/MMS"@de; 
+	skos:definition "Selbstverwaltete Umfrage, in der die Befragten per SMS (Textnachrichten) oder MMS (Nachrichten mitMultimedia-Inhalten) Fragen erhalten und ihre Antworten im selben Format zurücksenden."@de.
+n1:15
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Fokusgruppe/Gruppenbefragung"@de; 
+	skos:definition "Eine für Forschungszwecke organisierte Gruppendiskussion zu einem bestimmten Thema. Individuen mit Bezug zum Thema werden ausgewählt, und die Interaktion zwischen den Teilnehmern wird als Teil der Methode verwendet. Term wurde für die 2. Version erweitert."@de.
+n1:16
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Eigenständig durchgeführte schriftliche Aufzeichnung und/oder Tagebücher"@de; 
+	skos:definition "Erzählungen, Geschichten, Tagebücher und schriftliche Texte, die vom Forschungssubjekt erstellt wurden."@de.
+n1:17
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Beobachtung"@de; 
+	skos:definition "Forschungsmethode, die das Sammeln von Daten beinhaltet, wie sieauftreften(z. B. Beobachtung von Verhaltensweisen, Ereignissen, Entwicklung vonZustandoder Krankheit usw.), ohne zu versuchen, eine der unabhängigen Variablen zu manipulieren."@de.
+n1:18
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Beobachtung: Feldbeobachtung"@de; 
+	skos:definition "Beobachtung, die in einer natürlichen Umgebung durchgeführt wird."@de.
+n1:19
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Beobachtung: Feldbeobachtung (Teilnehmend)"@de; 
+	skos:definition "Eine Art der Feldbeobachtung, in der der Forscher mit den Probanden interagiert und oft selbst eine Rolle in der sozialen Situation unter Beobachtung einnimmt."@de.
+n1:20
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Beobachtung: Feldbeobachtung (Nicht-teilnehmend)"@de; 
+	skos:definition "Beobachtung, die in einer natürlichen, nicht kontrollierten Umgebung durchgeführt wird - ohne jegliche Interaktion zwischen dem/der Forscher/in und seinen/ihren Probanden."@de.
+n1:21
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Beobachtung: Laborbeobachtung"@de; 
+	skos:definition "Beobachtung, die in einer kontrollierten, künstlich geschaffenen Umgebung durchgeführt wird. Zum Beispiel, das Spielen der Kinder in einem Labor-Spielzimmer beobachten."@de.
+n1:22
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Beobachtung: Laborbeobachtung (Teilnehmend)"@de; 
+	skos:definition "Eine Art der Laborbeobachtung, in der der Forscher mit den Probanden interagiert und oft selbst ein Rolle in der gesellschaftlichen Situation unter Beobachtung einnimmt. Zum Beispiel, dasBeobachtenspielender Kinder in einem Labor-Spielzimmer,wobeider Forscher selbst amSpielteilnimmt."@de.
+n1:23
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Beobachtung: Laborbeobachtung (Nicht-teilnehmend)"@de; 
+	skos:definition "Eine Art der Laborbeobachtung, die ohne jegliche Interaktion zwischen dem/der Forscher/in und seinen/ihren Probanden durchgeführt wird."@de.
+n1:24
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Beobachtung: Computerbasierte Beobachtung"@de; 
+	skos:definition "Eine Art der Beobachtung, bei der Daten bezüglich der Computer-Nutzung von einer Software gesammelt werden, die in das Computerprogramm selbst eingebaut werden oder ein separates Programm sein kann. Es können Informationen über die Anzahl der Nutzer, die Art und Weise, wie Nutzer mit dem/denProgramm/eninteragieren, wie viel Zeit sie auf einer Seite verbringen, wie sie bestimmte Abschnitte von Anwendungen verwenden, wie sie von Seite zu Seite oder von einer Anwendung zur anderen navigieren etc. gesammelt werden."@de.
+n1:33
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Inhaltscodierung"@de; 
+	skos:definition "Als eine Art der Sekundärdatensammlung, setzt Inhaltscodierung Codierungstechniken ein, um qualitative Daten (Text-, Video-, Audio oder Standbild ), die ursprünglich für andere Zwecke produziert wurden, in quantitative Daten (ausgedrückt in einer Unit-by-Variable Matrix) nach einem zuvor erstellten Kategorienschema umzuwandeln. Zum Beispiel kodierte Parteiprogrammdaten wie „European Parliament Election Study 2009, Manifesto Study" (doi:10.4232/1.10204)"@de.
+n1:34
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Transkription"@de; 
+	skos:definition "Erfassen von Informationen in schriftlicher Form aus unterschiedlichen Quellen, odereinemanderenMedium, Alphabet oder Notationsform, wie wissenschaftliche Formeln oder Musiknoten. Für transkribierte Interviews oder Beobachtungen empfiehlt es sich, die primäre Art der Erhebung unter Verwendung der Begriffe aus dem Interview oder der Beobachtung zu dokumentieren."@de.
+n1:35
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompilation/Synthese"@de; 
+	skos:definition "Sammeln und Zusammenfügen von Daten aus mehreren, oft heterogenen Quellen, die einen oder mehrere Bezugspunkt/e gemeinsam haben, und mindestens eine der Quellen wurde ursprünglich für andere Zwecke hergestellt. Die Daten bilden eine neue Dateneinheit. Zum Beispiel kann zur Bereitstellung der Daten zur Anzahl der Universitäten in den letzten 150 Jahren eine Vielzahl an verfügbaren Quellen genutzt werden (z. B. Finanzdokumente, amtliche Statistiken, Universitätsregister), Umfragedaten können mit Informationen über geografische Regionen aus der amtlichen Statistik kombiniert werden (z. B. Bevölkerungsdichte , Ärzte pro-Kopf etc.), oder es können RSS genutzt werden, um Blog, Posts oder Tweets zu sammeln usw."@de.
+n1:37
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Zusammenfassung"@de; 
+	skos:definition "Darstellung von Informationen in komprimierter Form, indem man diese auf ihre wichtigsten Punkte reduziert. Zum Beispiel Zusammenfassungen von Interviews oder Berichten, die veröffentlicht und als Daten genutzt werden, anstatt der Interviews oder Berichte in deren vollen Länge."@de.
+n1:39
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Simulation"@de; 
+	skos:definition "Modellieren oder Nachahmen von realen Prozessen, Ereignissen oder Systemen, oft unter Anwendung von Computerprogrammen. Zum Beispiel, ein Programm, dasdie Reaktion des Haushaltskonsums auf indirekte Steuerveränderungenmodelliert;oder ein Datensatz über hypothetische Patienten und ihren Umgang mit Drogen, ihren Hintergrund und bekannte Nebenwirkungen."@de.
+n1:38
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Aggregation"@de; 
+	skos:definition "Statistiken, die sich auf breite Klassen, Gruppen oder Kategorien beziehen. Die Daten werden gemittelt, summiert oder anderweitig aus Individualdaten abgeleitet, und es ist nicht mehr möglich, die Merkmale von Individuen innerhalb dieser Klassen, Gruppen oder Kategorien zu unterscheiden. Zum Beispiel, die Anzahl und Altersgruppe von Arbeitslosen in bestimmten geografischen Regionen, oder Statistiken auf nationaler Ebene über das Auftreten von spezifischen Straftaten, die ursprünglich aus der Statistik der einzelnen Polizeibezirke abgeleitet wurden."@de.
+n1:25
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Messungen und Tests"@de; 
+	skos:definition "Beurteilung von spezifischen Eigenschaften (oder Merkmalen) von Lebewesen,Dingen, Phänomenen, (und/oder Prozessen) durch Anwendung vorgegebener Standards und/oder spezialisierter Instrumente oder Techniken."@de.
+n1:26
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Messungen und Tests: Leistungs- und Kompetenztests"@de; 
+	skos:definition "Beurteilung von Wissen, Fähigkeiten, Eignung oder Bildungsleistung durch fachkundige Messungen oder Tests."@de.
+n1:27
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Messungen und Tests: Leistungs- und Kompetenztest: Paper and Pencil Test"@de; 
+	skos:definition "Beurteilung von Wissen, Fähigkeiten, Eignung oder Bildungsleistung durch fachkundige Messungen oder Tests. via Paper and Pencil Test"@de.
+n1:28
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Messungen und Tests: Leistungs- und Kompetenztest: Computerbasierter Test"@de; 
+	skos:definition "Beurteilung von Wissen, Fähigkeiten, Eignung oder Bildungsleistung durch fachkundige Messungen oder Tests. via Computerbasiertem Test"@de.
+n1:29
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Messungen und Tests: Physische Tests"@de; 
+	skos:definition "Beurteilung der physischen Eigenschaften von Lebewesen, Gegenständen, Materialien oder Naturphänomenen. Zum Beispiel Erkenntnisse aus der praktischen medizinischen Untersuchung (z. B. Abtasten oder Abhören), klinische Messungen und Labortests wie Blutanalyse, Blutdruck, Herzfrequenz, Körpergewicht und Körpergröße sowie allgemeine Messungen wie Zeit, Distanz, Masse, Temperatur, Kraft, Stärke, Geschwindigkeit, GPS-Daten über physische Bewegung und andere physische Parameter oder Variablen, wie Geodaten."@de.
+n1:30
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Messungen und Tests: Psychologische Tests"@de; 
+	skos:definition "Beurteilung von Persönlichkeitsmerkmalen oder psychologischen Reaktionen/Verhaltensreaktionen durch fachkundige Messungen oder Tests. Zum Beispiel objektive Tests wie Selbstbericht mit eingeschränktem Antwortformat oder projektiven Methoden, die freie Äußerungen erlauben, einschließlich Wortassoziationen, Vollendung des Satzes oder einer Geschichte, Vignetten, Karikaturtests, thematische Auffassungstests, Rollenspiele, Zeichentests, Tintenklecks-tests, etc."@de.
+n1:31
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Messungen und Tests: Psychologische Tests: Paper and Pencil Test"@de; 
+	skos:definition "Beurteilung von Persönlichkeitsmerkmalen oder psychologischen Reaktionen/Verhaltensreaktionen durch fachkundige Messungen oder Tests. Zum Beispiel objektive Tests wie Selbstbericht mit eingeschränktem Antwortformat oder projektiven Methoden, die freie Äußerungen erlauben, einschließlich Wortassoziationen, Vollendung des Satzes oder einer Geschichte, Vignetten, Karikaturtests, thematische Auffassungstests, Rollenspiele, Zeichentests, Tintenklecks-tests etc.via Paper and Pencil Test"@de.
+n1:32
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Messungen und Tests: Psychologische Tests: Computerbasierter Test"@de; 
+	skos:definition "Beurteilung von Persönlichkeitsmerkmalen oder psychologischen Reaktionen/Verhaltensreaktionen durch fachkundige Messungen oder Tests. Zum Beispiel objektive Tests wie Selbstbericht mit eingeschränktem Antwortformat oder projektiven Methoden, die freie Äußerungen erlauben, einschließlich Wortassoziationen, Vollendung des Satzes oder einer Geschichte, Vignetten, Karikaturtests, thematische Auffassungstests, Rollenspiele, Zeichentests, Tintenklecks-tests etc. via Computerbasiertem Test"@de.
+n1:40
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sonstige"@de; 
+	skos:definition "Verwenden Sie diese Kategorie, wenn die Art der Datenerhebung bekannt ist, aber nicht in der Liste vertreten ist."@de.
+n1:14
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Eigenständig auszufüllender Fragebogen: CASI (Computerunterstützte Selbstbefragung)"@de; 
+	skos:definition "Computergestützte Selbstbefragung (CASI). Die Befragten geben die Antworten in einen Computer (Desktop, Laptop, Palm/PDA, Tablet, etc.) selbst ein. DieVerwaltung des Fragebogenswird von einem/r speziell entworfenen Programm/Anwendunggemanagt,aber es gibt keine Echtzeit-Datenübertragung wie in CAWI, die Antworten werden auf dem für das Interview verwendeten Gerät gespeichert. Der Fragebogen kann eine festgelegteForm haben oder interaktiv sein. Inklusive VCASI (ComputergestützteVideoSelbstbefragung), ACASI (ComputergestützteAudioSelbstbefragung) und TACASI (ComputergestützteTelefon-AudioSelbstbefragung)."@de.
+n1:13
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Eigenständig auszufüllender Fragebogen: CAWI (Computerunterstütztes Web-Interview)"@de; 
+	skos:definition "Computergestütztes Web-Interview (CAWI). Die Daten werden mit einem Web-Fragebogen, der mit einem Programm zur Erstellung von Web-Umfragen erstellt wurde, erhoben. Das Programm kann den Verlauf des Fragebogens an die bereits abgegebene Antworten anpassen und ermöglicht es, dass der Fragebogen Bilder, Audio- und Videoclips, Links zu verschiedenen Webseiten etc. enthält."@de.
+n1:15.1
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Fokusgruppe/Gruppenbefragung: Gruppendiskussion"@de; 
+	skos:definition "Term wurde für die 2. Version ergänzt."@de.
+n1:15.2
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Fokusgruppe/Gruppenbefragung: Fokusgruppeninterview"@de; 
+	skos:definition "Term wurde für die 2. Version ergänzt"@de.
+n1:15.3
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Fokusgruppe/Gruppenbefragung: Gruppenexperiment "@de; 
+	skos:definition "Term wurde für die 2. Version ergänzt."@de.
+n1:40.1
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sonstige: Ethnographische Verfahren/ Ethnografie"@de; 
+	skos:definition "Term wurde für die 2. Version ergänzt"@de.
+n1:40.2
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sonstige: Ethnographische Verfahren/ Ethnografie: Ethnopsychoanalyse "@de; 
+	skos:definition "Term wurde für die 2. Version ergänzt"@de.
+n1:40.3
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sonstige: Ethnographische Verfahren/ Ethnografie: Visuelle Ethnografie"@de; 
+	skos:definition "Term wurde für die 2. Version ergänzt."@de.
+n1:40.4
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sonstige: Ethnographische Verfahren/ Ethnografie: Ethnografische Semantik"@de; 
+	skos:definition "Term wurde für die 2. Version ergänzt"@de.
+n1:40.5
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sonstige: Erzählungen"@de; 
+	skos:definition "Term wurde für die 2. Version ergänzt."@de.
+n1:40.6
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sonstige: Erzählungen: Gemeinsames Erzählen"@de; 
+	skos:definition "Term wurde für die 2. Version ergänzt"@de.
+n1:40.7
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sonstige: Erzählungen: Narrative Inquiry"@de; 
+	skos:definition "Term wurde für die 2. Version ergänzt"@de.
+n1:40.8
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sonstige: Biografische Methode"@de; 
+	skos:definition "Term wurde für die 2. Version ergänzt."@de.
+n1:40.9
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sonstige: Biografische Methode: Oral History"@de; 
+	skos:definition "Term wurde für die 2. Version ergänzt."@de.
+n1:40.91
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sonstige: Biografische Methode: Diary-Verfahren"@de; 
+	skos:definition "Term wurde für die 2. Version ergänzt."@de.
+n1:40.92
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sonstige: Qualitatives Experiment"@de; 
+	skos:definition "Term wurde für die 2. Version ergänzt."@de.
+n1:40.93
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sonstige: Laborexperiment"@de; 
+	skos:definition "Term wurde für die 2. Version ergänzt."@de.
+n1:40.94
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sonstige: Laborstudie"@de; 
+	skos:definition "Term wurde für die 2. Version ergänzt."@de.
+n1:40.95
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sonstige: Feldstudie"@de; 
+	skos:definition "Term wurde für die 2. Version ergänzt."@de.
+n1:40.96
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sonstige: Phänomenologische Verfahren"@de; 
+	skos:definition "Term wurde für die 2. Version ergänzt."@de.
+n1:34.1
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Transkription: Filmtranskription"@de; 
+	skos:definition "Term wurde für die 2. Version ergänzt."@de.
+n1:34.2
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Transkription: Videotranskription"@de; 
+	skos:definition "Term wurde für die 2. Version ergänzt."@de.
+n1:34.3.
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Transkription: Audiotranskription"@de; 
+	skos:definition "Term wurde für die 2. Version ergänzt."@de.
+n1:8.01
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Rezeptives Interview"@de.
+n1:8.02
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Problemzentriertes Interview"@de.
+n1:8.03
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Leitfadeninterview"@de.
+n1:8.04
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Narratives Interview"@de.
+n1:8.05
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Tiefeninterview"@de.
+n1:8.06
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Episodisches Interview"@de.
+n1:8.07
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Halbstandardisiertes Interview"@de.
+n1:8.08
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Erzählgenerierendes Interview"@de.
+n1:8.09
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Ethnografisches Interview"@de.
+n1:8.10
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Fokussiertes Interview"@de.
+n1:8.11
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Ero-episches Gespräch"@de.
+n1:8.12
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview: Experteninterview"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Verbund FDB-CV  - Erhebungsverfahren"@de;
+	dct:description " "" Kontrolliertes Vokabular VerbundFDB: Erhebungsverfahren. Implementierte überarbeitete Version in Anpassung an die Anforderungen des VerbundFDB 
+
+  Stand: 13.12.2016 
+
+   Englische Beschreibungen kommen von DDI Controlled Vocabulary for Mode Of Collection hierbei handelt es sich um ein kontrolliertes Vokabular zur Prozedur, Technik oder Art der Erhebung, die verwendet wurde, um Daten zu bekommen. """@de;
+	skos:hasTopConcept
+		n1:1,
+		n1:2,
+		n1:3,
+		n1:4,
+		n1:5,
+		n1:6,
+		n1:7,
+		n1:8,
+		n1:9,
+		n1:10,
+		n1:11,
+		n1:12,
+		n1:15,
+		n1:16,
+		n1:17,
+		n1:18,
+		n1:19,
+		n1:20,
+		n1:21,
+		n1:22,
+		n1:23,
+		n1:24,
+		n1:33,
+		n1:34,
+		n1:35,
+		n1:37,
+		n1:39,
+		n1:38,
+		n1:25,
+		n1:26,
+		n1:27,
+		n1:28,
+		n1:29,
+		n1:30,
+		n1:31,
+		n1:32,
+		n1:40,
+		n1:14,
+		n1:13,
+		n1:15.1,
+		n1:15.2,
+		n1:15.3,
+		n1:40.1,
+		n1:40.2,
+		n1:40.3,
+		n1:40.4,
+		n1:40.5,
+		n1:40.6,
+		n1:40.7,
+		n1:40.8,
+		n1:40.9,
+		n1:40.91,
+		n1:40.92,
+		n1:40.93,
+		n1:40.94,
+		n1:40.95,
+		n1:40.96,
+		n1:34.1,
+		n1:34.2,
+		n1:34.3.,
+		n1:8.01,
+		n1:8.02,
+		n1:8.03,
+		n1:8.04,
+		n1:8.05,
+		n1:8.06,
+		n1:8.07,
+		n1:8.08,
+		n1:8.09,
+		n1:8.10,
+		n1:8.11,
+		n1:8.12.

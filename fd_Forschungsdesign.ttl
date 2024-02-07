@@ -1,0 +1,63 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix n0: <https://w3id.org/iqb/v85/fd/>. 
+@prefix n1: <https://w3id.org/iqb/v85/fd/>. 
+
+n1:1
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Experimentelles Design"@de; 
+	skos:definition "Ein experimentelles Design ist dadurch gekennzeichnet, dass (1) mindestens zwei experimentelle Gruppen gebildet werden (Kontroll- und Experimentalgruppe), (2) die Untersuchungseinheiten den Gruppen durch ein Zufallsverfahren (Randomisierung) zugewiesen werden und (3) die unabhängige Variable vom Forscher gezielt ,manipuliert' wird (experimenteller Stimulus)."@de.
+n1:2
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Quasi-Experimentelles Design"@de; 
+	skos:definition "Im Unterschied zum experimentellen Design erfolgt die Zuordnung der Untersuchungseinheiten zu den Experimental- und Kontrollgruppen nicht durch Randomisierung, sondern aufgrund bereits vorhandener Merkmale der Untersuchungseinheiten bzw. erfolgt durch die Untersuchungseinheiten selbst. Der Stimulus wird jedoch wie bei einem echten Experiment gesetzt."@de.
+n1:3
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Beobachtungsdesign"@de; 
+	skos:definition "Ein Beobachtungsdesign (auch ,Ex-post-facto-Design') zeichnet sich dadurch aus, dass der Forscher keinen Stimulus manipuliert und auch keine Randomisierung der Untersuchungseinheiten auf die Ausprägungen der unabhängigen Variablen stattfindet."@de.
+n1:4
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Fallstudie"@de; 
+	skos:definition "Ein Design bei dem eine einzelne Untersuchungseinheit, bzw. ein ,Fall' (dies können z. B. Einzelpersonen, Personengruppen, Organisationen, Kulturen aber auch soziale Prozesse, einzelne Situationen o. Ä. sein) zu einem bestimmten Zeitpunkt analysiert werden soll."@de.
+n1:40
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sonstiges"@de; 
+	skos:definition "Ein Design, welches sich keiner der oben genannten Kategorien zuordnen lässt."@de.
+n1:5
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Secondary Analysis"@de; 
+	skos:definition "Secondary analysis is a research strategy which makes use of pre-existing quantitative data or pre-existing qualitative research data for the purposes of investigating new questions or verifying previous studies. (Janet Heaton 2004, Reworking Qualitative Data S. 16)"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Verbund FDB-CV  - Forschungsdesign"@de;
+	dct:description """Kontrolliertes Vokabular VerbundFDB: Forschungsdesign 
+
+ Implementierte überarbeitete Version in Anpassung an die Anforderungen des VerbundFDB 
+
+  Stand: 13.12.2016 """@de;
+	skos:hasTopConcept
+		n1:1,
+		n1:2,
+		n1:3,
+		n1:4,
+		n1:40,
+		n1:5.

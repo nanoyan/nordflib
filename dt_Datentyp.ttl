@@ -1,0 +1,38 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix n0: <https://w3id.org/iqb/v85/dt/>. 
+@prefix n1: <https://w3id.org/iqb/v85/dt/>. 
+
+n1:1
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenz- und Leistungsdaten"@de.
+n1:2
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Qualitatives, nicht oder gering standardisiertes Datenmaterial"@de.
+n1:3
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Umfrage- und Aggregatdaten"@de.
+n1:99
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sonstiges Datenmaterial"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Verbund FDB-CV  - Datentyp"@de;
+	skos:hasTopConcept
+		n1:1,
+		n1:2,
+		n1:3,
+		n1:99.

@@ -1,0 +1,67 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix n0: <https://w3id.org/iqb/v85/ed/>. 
+@prefix n1: <https://w3id.org/iqb/v85/ed/>. 
+
+n1:1
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Längsschnitt"@de; 
+	skos:definition "Daten, die an mehreren Zeitpunkten erhoben wurden, um Veränderungen innerhalb einer Population zu untersuchen. Mindestens einige der Fragen oder Module werden dabei in Wellen wiederholt abgefragt. Verwenden Sie diesen breit gefassten Begriff, wenn sich keiner der Unterterme eignet."@de.
+n1:2
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Längsschnitt: Kohorten"@de; 
+	skos:definition "Daten, die an mehreren Zeitpunkten einer gleichbleibenden Kohorte erhoben wurden. Die Individuen der Kohorte sind in einer spezifischen Art und Weise miteinander verbunden oder teilen besondere Erfahrungen innerhalb eines bestimmten Zeitraums. In manchen Fällen können die Stichproben zwischen den Wellen variieren, werden jedoch aus der derselben Kohorte gezogen. Beispiele: Geburtsjahr, Krankheit (klinische Studien), gemeinsames Problem (Interventionsstudien), Bildung, Beschäftigung, Familiengründung, Teilnahme an einer Veranstaltung"@de.
+n1:3
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Längsschnitt: Trend/Wiederholter Querschnitt"@de; 
+	skos:definition "Daten, die an mehreren Zeitpunkten aus unterschiedlichen Stichproben oder Personengruppen einer gleichen Population erhoben wurden, wobei zumindest teilweise die gleichen Fragen oder Variablen verwendet wurden. Die Schlussfolgerungen beziehen sich auf die Gesamtpopulation. Beispiele: European Social Survey (ESS), Nationale Längsschnittstudien über Kriminalität"@de.
+n1:4
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Längsschnitt: Panel"@de; 
+	skos:definition "Daten, die an mehreren Zeitpunkten von einer gleichbleibenden Stichprobe erhoben wurden. Der Unterschied zu Kohorten- bzw. ereignisbezogenen Daten liegt darin, dass die Befragten keine Verbindung aufweisen oder bedeutende Erfahrungen teilen."@de.
+n1:5
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Zeitreihen"@de; 
+	skos:definition "Daten, die in wiederholten Zeitabständen gesammelt wurden, um Veränderungen der Untersuchungseinheit zu untersuchen. Diese sind typischerweise „objektive“ Messungen von Phänomenen, die durch externe Beobachtung erhoben werden können, im Gegensatz zu Einstellungen/Meinungen oder Emotionen. Beispiele sind ökonomische/finanzielle Indikatoren, natürliche/meteorologische Phänomene, Bevölkerungsstatistik etc."@de.
+n1:6
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Querschnitt"@de; 
+	skos:definition "Daten, die zu einem Zeitpunkt erhoben wurden, ohne bei den Untersuchungseinheiten Veränderungen über die Zeit zu berücksichtigen. Dabei kann die Erhebung auch mehrere „Erhebungsereignisse“ umfassen, z. B. an mehreren Tagen innerhalb der Feldzeit durchgeführt werden. Die Analyse der Querschnittsdaten besteht häufig in der Untersuchung von Unterschieden und Gemeinsamkeiten der Befragten."@de.
+n1:40
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sonstige"@de; 
+	skos:definition "Verwenden Sie diesen Begriff, wenn die zeitliche Dimension der Methode bekannt ist, aber nicht in der Liste vertreten ist."@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Verbund FDB-CV  - Erhebungsdesign"@de;
+	dct:description "Angabe des Erhebungsdesigns"@de;
+	skos:hasTopConcept
+		n1:1,
+		n1:2,
+		n1:3,
+		n1:4,
+		n1:5,
+		n1:6,
+		n1:40.

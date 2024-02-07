@@ -1,0 +1,164 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix n0: <https://w3id.org/iqb/v85/av/>. 
+@prefix n1: <https://w3id.org/iqb/v85/av/>. 
+
+n1:1
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Total universe/Complete Enumeration"@de; 
+	skos:definition "Alle  Einheiten (Individuen, Haushalte, Organisationen, usw.) der Grundgesamtheit  sind Teil der Erhebung. Wenn beispielsweise die Grundgesamtheit  als die Mitglieder einer Gewerkschaft definiert  ist, werden  alle Gewerkschaftsmitglieder  eingeladen, an der Studie teilzunehmen. Wenn die gesamte Bevölkerung einer regionalen Einheit (z.B. eines Landes) Teil des Erhebungsverfahrens ist, wird dies als auch 'Zensus' bezeichnet."@de.
+n1:2
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Wahrscheinlichkeitsauswahl"@de; 
+	skos:definition "Alle Einheiten (Individuen, Haushalte, Organisationen, usw.) der Grundgesamtheit  haben eine genau bestimmbare, von Null verschiedene, Wahrscheinlichkeit,  in die Stichprobe zu gelangen. Wählen Sie diese Bezeichnung, wenn die genaue Art der Wahrscheinlichkeitsauswahl unbekannt oder schwierig zu bestimmen ist."@de.
+n1:3
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Wahrscheinlichkeitsauswahl: Einfache Zufallsauswahl"@de; 
+	skos:definition "Alle Einheiten (Individuen, Haushalte, Organisationen, usw.) der Grundgesamtheit haben die gleiche Wahrscheinlichkeit, in die Stichprobe zu gelangen. ln der Regel werden die Einheiten der Grundgesamtheit zufällig aus einer Auswahlgrundlage (z.B. eine Liste mit allen Einheiten der Grundgesamtheit) gezogen."@de.
+n1:4
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Wahrscheinlichkeitsauswahl: Systematische Zufallsauswahl"@de; 
+	skos:definition "Aus dem Verhältnis der Grundgesamtheit  und der gwwünschten Stichprobengröße ergibt sich ein Intervall für die Stichprobenziehung. In der Auswahlgrundlage (z. B. eine Liste mit allen Einheiuten der Grundgesamtheit) wird ein startpukt zufällig ermittelt. Von diesem Startpunkt aus werden alle weiteren Einheiten nach dem festgelegten Intervall ausgewählt. Auch bekannt als Intervall-Stichprobe. Beispielsweise sollen 1.000 Angestellte von insgesamt 10.000 Angestellten eines Unternehmens befragt werden: Zufällig wird eine/e Angestellte/r von einer Liste mit allen Angestellten ausgewählt. Ausgehend von dieser Person wird dann jede/r 10. eingeladen, an der Studie teilzunehmen."@de.
+n1:5
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Wahrscheinlichkeitsauswahl: Geschichtete  Zufallsauswahl"@de; 
+	skos:definition "Die Grundgesamtheit wird  in sich  gegenseitig ausschließende und insgesamt erschöpfende Schichten  unterteilt. Aus jeder  Schicht  werden voneinander  unabhängige, einfache Zufallsstichproben  gezogen. Beispielsweise wird ein land bei einer allgemeinen  Bevölkerungsumfrage  in zwei  regionale Kategorien  unterteilt: Ost und West. ln beiden Regionen werden jeweils  getrennte Stichproben gezogen. Wählen Sie diese Bezeichnung, wenn die genaue Art der geschichteten  Wahrscheinlichkeitsauswahl unbekannt oder schwierig zu bestimmen ist."@de.
+n1:6
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Wahrscheinlichkeitsauswahl: Proportional geschichtete Zufallsauswahl"@de; 
+	skos:definition "Die Grundgesamtheit wird in sich gegenseitig ausschließende und insgesamt erscl1öpfende Schichten unterteilt. Bei der proportional geschichteten Zufallsauswahl ist die Anzahl der gezogenen Einheiten proportional zur Anzahl der Einheiten der jeweiligen Schicht in der Grundgesamtheit Beispielsweisewird ein land in zwei regionale Schichten unterteilt, wobei erstere 80 Prozent (West) und letztere 20 Prozent (Ost) der gesamten Bevölkerung umfassen. Für eine Stichprobe von  1.000 Personen würden dann 800 Personen im Osten und 200 Personen im Westen befragt."@de.
+n1:7
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Wahrscheinlichkeitsauswahl: Disproportional geschichtete Zufallsauswahl"@de; 
+	skos:definition "Die Grundgesamtheit wird in sich gegenseitig ausschließende und insgesamt erschöpfende Schichten unterteilt. Bei der disproportionalen Zufallsauswahl ist die Anzahl der aus jeder Schicht gezogenen Einheiten nicht proportional zum Anteil der Schichten an der Grundgesamtheit Sie können über die Schichten gleich verteilt sein oder sich an der Forschungsabsicht orientieren. Beispielsweise durch das so genannte Oversampling von in der Grundgesamtheit unterrepräsentierten Gruppen. Beispielsweise wird ein Land in zwei regionale Schichten unterteilt, wobei erstere 80 Prozent [West) und letztere 20 Prozent [Ost) der gesamten Bevölkerung umfassen. Sollen beide Regionen gleich repräsentiert werden, würden in beiden Teilen jeweils 50 Prozent der  benötigten Stich probe gezogen werden. Bei einem Oversampling der Region Ost würden beispielsweise 60 Prozent der Stichprobe im Osten und 40 Prozent im Westen gezogen werden."@de.
+n1:8
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Wahrscheinlichkeitsauswahl: Klumpenauswahl"@de; 
+	skos:definition "Die Grundgesamtheit  wird  in natürlich  auftretende Gruppen (Cluster) unterteilt. Aus diesen Gruppen wird eine Zufallsstichprobe  gezogen. Innerhalb der gezogenen Gruppen werden dann Daten über alle Einheiten erhoben. Die Gruppierungen ergeben sich oft durch die geographische  Lage oder Zeitabschnitte. Wählen Sie diese Bezeichnung, wenn die genaue Art der Klumpenauswahl unbekannt oder schwierig zu bestimmen ist."@de.
+n1:9
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Wahrscheinlichkeitsauswahl: Einfache Klumpenauswahl"@de; 
+	skos:definition "Die Grundgesamtheit wird in natürlich auftretende Gruppen (Cluster) unterteilt. Aus diesen Gruppen wird eine einfache Zufallsstichprobe gezogen. Innerhalb der gezogenen Gruppen werden dann Daten über alle Einheiten erhoben. Beispielsweise wird eine bestimmte Anzahl von Schulen in einer Stadt zufällig ausgewählt, um dann alle Schüler an den jeweiligen Schulen in die Stichprobe aufzunehmen."@de.
+n1:10
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Wahrscheinlichkeitsauswahl: Geschichtete Klumpenauswahl"@de; 
+	skos:definition "Die Grundgesamtheit wird in natürlich auftretende Gruppen (Cluster) unterteilt. Diese Gruppen werden in sich gegenseitig ausschließende und insgesamt erschöpfende Schichten unterteilt. Aus diesen wird dann eine bestimmte Anzahl an Gruppen zufällig ausgewählt. Beispielsweise werden Schulen nach privaten und öffentlichen unterschieden, um dann aus diesen beiden Gruppen per Zufall Schulen auszuwählen und alle Schüler der ausgewählten Schulen in die Stichprobe aufzunehmen."@de.
+n1:11
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Wahrscheinlichkeitsauswahl: Mehrstufige Zufallsauswahl"@de; 
+	skos:definition "Bei der mehrstufigen Zufallsauswahl  wird eine Zufallsauswahl  bestimmter  Einheiten  getroffen, aus denen dann jeweils zufällig die nächstkleinere Einheit gezogen wird. Die Art der Zufallsauswahl kann dabei zwischen den Stufen variieren. Für eine Stichprobe von Schülern werden beispielsweise zufällig   Schulen in einer Stadt ausgewählt. Aus den Schulen  werden  im nächsten Schrittjeweils mehrere Klassen gezogen, um dann eine bestimmte Anzahl von Schülern aus diesen Klassen zufällig auszuwählen, die zur Teilnahme an der Studie eingeladen werden."@de.
+n1:12
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Nicht-Wahrscheinlichkeitsauswahl"@de; 
+	skos:definition "Die Auswahl von Einheiten (z. B. Individuen, Haushalte, Organisationen, usw.) aus der Grundgesamtheit erfolgt nicht nach dem Zufallsprinzip. Die Auswahlwahrschein lieh keit der einzelnen Einheiten kann daher nicht ermittelt werden. Wählen Sie diese Bezeichnung, wenn die genaue Art der Nicht-Wahrscheinlichkeitsauswahl unbekannt. schwierig zu bestimmen ist oder mehrere Arten der Nicht-Wahrscheinlichkeitsauswahl angewendet werden."@de.
+n1:13
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Nicht-Wahrscheinlichkeitsauswahl: Willkürliche Auswahl"@de; 
+	skos:definition "Die Auswahl der Einheiten hängt von deren relativer Verfügbarkeit ab. Das heißt, es werden Einheiten gewählt. die einfach erreichbar sind oder aufgrund bestimmter Merkmale oder Verhaltensweisen eher auf die Studie aufmerksam werden (Selbstselektion). Der Forscher kann eine bestimmte Zielgruppe anstreben, die Auswahlmechanismen der Stichprobe aber nicht kontrollieren. Beispielsweise werden Studierende, die ein bestimmtes Gebäude der Universität verlassen, angesprochen  und eingeladen, an der Studie teilzunehmen. Oder es werden allgemeine Einladungen, die sich an größere Gruppen richten, ausgesprochen und jede Person, die sich daraufhin meldet, ist Teil der Auswahl. Man nennt diese willkürliche Auswahl auch Convenience
+,Sample oder Gelegenheitsstichprobe."@de.
+n1:14
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Nicht-Wahrscheinlichkeitsauswahl: Bewusste Auswahl"@de; 
+	skos:definition "Alle Einheiten der Stichprobe sind bewusst, wegen ihres potenziellen Beitrags zum Untersuchungsgegenstand, ausgewählt. Die Grundgesamtheit und die Auswahlkriterien richten sich dabei nach den Ausprägungen der unabhängigen und/oder abhängigen Variablen der Untersuchung und werden von dem/der Forscher/in festgelegt. Er/Sie oder die für die Stichprobenziehung autorisierte Person kontrolliert die Auswahl. Beispielsweise werden für eine medizinische Studie bewusst Personen ausgewählt, die eine bestimmte Krankheit aufweisen, um diese mit einer Kontrollgruppe zu vergleichen. Verschiedene Varianten sind die Auswahl typischer/abweichender Fälle, homogener/heterogener Fälle oder kritischer Fälle."@de.
+n1:15
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Nicht-Wahrscheinlichkeitsauswahl: Quotenstichprobe"@de; 
+	skos:definition "Die Grundgesamtheit wird nach bestimmten Kriterien in sich gegenseitig ausschließende und insgesamt erschöpfende Segmente unterteilt. Die Verteilung der Quotenmerkmale (z. B. GeschIecht, Alter, Ethnizität. Religion, Bildungsstand etc.) soll die diesbezügliche Verteilung der Grundgesamtheit Widerspiegeln. Aus jedem Segment werden dann Einheiten durch Nicht-Wahrscheinlichkeitsauswahl ausgewählt. bis die gewünschte Anzahl der Einheiten pro Quotenmerkmal  erreicht ist. Wenn die Grundgesamtheit  beispielsweise einen Frauenanteil von 45 Prozent und einen Männeranteil von 55 Prozent aufweist, ist der Anteil der Frauen und Männerinder  Stichprobe ebenso  hoch, wenn  es sich  um eine proportionale Quotenstichprobe handelt. ln einer  nicht proportionalen Quotenstichprobe  können die Geschlechterverhältnisse abweichen, beispielsweise durch ein bewusstes Oversampling von Frauen."@de.
+n1:16
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Nicht-Wahrscheinlichkeitsauswahl: Respondenten-gesteuerte Auswahl"@de; 
+	skos:definition "Die Einheiten werden  aus der Grundgesamtheit  mit Hilfe von Einheiten ausgewählt, die bereits in der Stichprobe sind. Ein typisches Beispiel dafür ist das Schneeballverfahren.  Hier wählt der Forscher nach festgelegten  Kriterien eine Gruppe von  Einheiten aus. Diese werden dann gebeten, ihnen ähnliche, für die Studie geeignete Personen zu rekrutieren (z. B. Stichproben  bestimmter  Gruppen, wie Migranten o.ä.)."@de.
+n1:17
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kombination aus Wahrscheinlichkeits- und Nicht-Wahrscheinlichkeitsauswahl"@de; 
+	skos:definition "Ein Verfahren, das für dieselbe Grundgesamtheit Wahrscheinlichkeits-  und Nicht- Wahrscheinlichkeitsauswahl miteinander kombiniert. Die verwendeten Methoden können innerhalb oder zwischen den Stufen der Stichprobenziehung kombiniert werden. Beispielsweise kann zur Untersuchung einer religiösen  Minderheit  eine  proportional geschichtete Zufallsauswahl  mit einer Respondenten-gesteuerten  Auswahl  kombiniert werden. Alternativ wäre für dieses Beispiel auch eine Kombination von mehrstufiger Zufallsauswahl und einer Quotenstichprobe bei der letzten Ziehung möglich."@de.
+n1:40
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sonstige"@de; 
+	skos:definition "Wählen Sie diese Kategorie, wenn das Verfahren bekannt, aber in der  Liste nicht aufgeführt ist."@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Verbund FDB-CV  - Auswahlverfahren"@de;
+	dct:description """DDI Controlled Vocabularies:  SamplingProcedure 
+
+ Dieses CV besitzt mehrere Werte. 
+
+ GESIS-DAS Kontrollierte Vokabulare: Auswahlverfahren 
+
+ Englisch-Deutsche Fassung 28.06.2016 
+
+ Dr. Alexander Jedinger GESIS/DDI Vocabulary Group """@de;
+	skos:hasTopConcept
+		n1:1,
+		n1:2,
+		n1:3,
+		n1:4,
+		n1:5,
+		n1:6,
+		n1:7,
+		n1:8,
+		n1:9,
+		n1:10,
+		n1:11,
+		n1:12,
+		n1:13,
+		n1:14,
+		n1:15,
+		n1:16,
+		n1:17,
+		n1:40.

@@ -1,0 +1,193 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix n0: <https://w3id.org/iqb/v85/ee/>. 
+@prefix n1: <https://w3id.org/iqb/v85/ee/>. 
+
+n1:15
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Vorschulkinder"@de.
+n1:24
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Ausbilder"@de.
+n1:1
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Auszubildende"@de.
+n1:6
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Jugendliche"@de.
+n1:14
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Studierende"@de.
+n1:9
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Referendare"@de.
+n1:11
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Schulen"@de.
+n1:13
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Schulleitungen"@de.
+n1:7
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Lehrkräfte"@de.
+n1:8
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Pädagogisches Personal"@de.
+n1:4
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Eltern"@de.
+n1:2
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Behörden"@de.
+n1:16
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "wissenschaftliches Personal"@de.
+n1:10
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Schulabgänger"@de.
+n1:5
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Hochschulabsolventen"@de.
+n1:3
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Berufsanfänger"@de.
+n1:40
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "sonstiges"@de.
+n1:12
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Schüler"@de.
+n1:20
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kindergartenkinder"@de.
+n1:17
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Studienzugangsberechtigte"@de.
+n1:18
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Promovierende"@de.
+n1:19
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Erwachsene"@de.
+n1:21
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Promotionsberechtigte"@de.
+n1:22
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Betriebe"@de.
+n1:23
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Babys"@de; 
+	skos:definition "0-12 Monate"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Verbund FDB-CV  - Erhebungseinheit"@de;
+	dct:description """Kontrolliertes Vokabular des VerbundFDB 
+
+ Zitation: VerbundFDB: Erhebungseinheit Bildungsforschung. Version 2.0. Retrieved from https:\/\/mdr.iqb.hu-berlin.de\/#\/catalog\/003f2155-64f0-98c9-93c6-687d68090742. 
+
+ im Vergleich zu Version 1 (https:\/\/mdr.iqb.hu-berlin.de\/#\/catalog\/94d1ae4f-a441-c728-4a03-adb0eb4604af) kamen folgende Ergänzungen hinzu:\nam 12.5.2022 Term Ausbilder\/Trainer ergänzt; am 21.1.2022 Term Babys\/Babies ergänzt; am 7. und 24.8.2020 Terme ins Englische übersetzt; am 6.7.2020 Term Betriebe\/Companies ergänzt; am 25.5.2020 Term Promotionsberechtigte ergänzt; am 19.3.2019 Terme Erwachsene\/Adults, Promovierende\/Doctoral Students, Studienzugangsberechtigte\/Persons Qualified for University ergänzt; am 21.2.2019 Term Kindergartenkinder\/Kindergarten Children ergänzt 
+
+ Stand: 13.05.2022"""@de;
+	skos:hasTopConcept
+		n1:15,
+		n1:24,
+		n1:1,
+		n1:6,
+		n1:14,
+		n1:9,
+		n1:11,
+		n1:13,
+		n1:7,
+		n1:8,
+		n1:4,
+		n1:2,
+		n1:16,
+		n1:10,
+		n1:5,
+		n1:3,
+		n1:40,
+		n1:12,
+		n1:20,
+		n1:17,
+		n1:18,
+		n1:19,
+		n1:21,
+		n1:22,
+		n1:23.
