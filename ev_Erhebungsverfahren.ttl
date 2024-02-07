@@ -532,7 +532,7 @@ n1:34.2
 	"Transcription: Video transcription"@en; 
 	skos:definition "Term wurde für die 2. Version ergänzt."@de,
 	"Translation of the term: VerbundFDB Term was added for the 2nd version"@en.
-n1:34.3.
+n1:34.3
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
@@ -631,7 +631,7 @@ n0:
 	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@en;
 	dct:title "Verbund FDB-CV  - Erhebungsverfahren"@de,
 	"Verbund FDB-CV - Mode of Collection"@en;
-	dct:description " "" Kontrolliertes Vokabular VerbundFDB: Erhebungsverfahren. Implementierte überarbeitete Version in Anpassung an die Anforderungen des VerbundFDB 
+	dct:description """ Kontrolliertes Vokabular VerbundFDB: Erhebungsverfahren. Implementierte überarbeitete Version in Anpassung an die Anforderungen des VerbundFDB 
 
   Stand: 13.12.2016 
 
@@ -701,7 +701,7 @@ n0:
 		n1:40.96,
 		n1:34.1,
 		n1:34.2,
-		n1:34.3.,
+		n1:34.3,
 		n1:8.01,
 		n1:8.02,
 		n1:8.03,
