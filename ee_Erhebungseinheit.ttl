@@ -8,163 +8,196 @@ n1:15
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Vorschulkinder"@de.
+	skos:prefLabel "Vorschulkinder"@de,
+	"Preschool Children"@en.
 n1:24
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Ausbilder"@de.
+	skos:prefLabel "Ausbilder"@de,
+	"Trainers"@en.
 n1:1
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Auszubildende"@de.
+	skos:prefLabel "Auszubildende"@de,
+	"Trainees"@en.
 n1:6
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Jugendliche"@de.
+	skos:prefLabel "Jugendliche"@de,
+	"Teenagers"@en.
 n1:14
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Studierende"@de.
+	skos:prefLabel "Studierende"@de,
+	"College Students"@en.
 n1:9
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Referendare"@de.
+	skos:prefLabel "Referendare"@de,
+	"Preservice Teachers"@en.
 n1:11
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Schulen"@de.
+	skos:prefLabel "Schulen"@de,
+	"Schools"@en.
 n1:13
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Schulleitungen"@de.
+	skos:prefLabel "Schulleitungen"@de,
+	"Principals"@en.
 n1:7
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Lehrkräfte"@de.
+	skos:prefLabel "Lehrkräfte"@de,
+	"Teachers"@en.
 n1:8
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Pädagogisches Personal"@de.
+	skos:prefLabel "Pädagogisches Personal"@de,
+	"Educational Staff"@en.
 n1:4
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Eltern"@de.
+	skos:prefLabel "Eltern"@de,
+	"Parents"@en.
 n1:2
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Behörden"@de.
+	skos:prefLabel "Behörden"@de,
+	"Authorities"@en.
 n1:16
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "wissenschaftliches Personal"@de.
+	skos:prefLabel "wissenschaftliches Personal"@de,
+	"Academic Staff"@en.
 n1:10
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Schulabgänger"@de.
+	skos:prefLabel "Schulabgänger"@de,
+	"School Leavers"@en.
 n1:5
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Hochschulabsolventen"@de.
+	skos:prefLabel "Hochschulabsolventen"@de,
+	"University Graduates"@en.
 n1:3
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Berufsanfänger"@de.
+	skos:prefLabel "Berufsanfänger"@de,
+	"Career Starters"@en.
 n1:40
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "sonstiges"@de.
+	skos:prefLabel "sonstiges"@de,
+	"others"@en.
 n1:12
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Schüler"@de.
+	skos:prefLabel "Schüler"@de,
+	"Students"@en.
 n1:20
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Kindergartenkinder"@de.
+	skos:prefLabel "Kindergartenkinder"@de,
+	"Kindergarten Children"@en.
 n1:17
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Studienzugangsberechtigte"@de.
+	skos:prefLabel "Studienzugangsberechtigte"@de,
+	"Persons Qualified for University"@en.
 n1:18
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Promovierende"@de.
+	skos:prefLabel "Promovierende"@de,
+	"Doctoral Students"@en.
 n1:19
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Erwachsene"@de.
+	skos:prefLabel "Erwachsene"@de,
+	"Adults"@en.
 n1:21
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Promotionsberechtigte"@de.
+	skos:prefLabel "Promotionsberechtigte"@de,
+	"Persons Qualified for Promotion"@en.
 n1:22
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Betriebe"@de.
+	skos:prefLabel "Betriebe"@de,
+	"Companies"@en.
 n1:23
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Babys"@de; 
-	skos:definition "0-12 Monate"@de.
+	skos:prefLabel "Babys"@de,
+	"Babies"@en; 
+	skos:definition "0-12 Monate"@de,
+	"0-12 months"@en.
 n0:
 	a skos:ConceptScheme;
-	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
-	dct:title "Verbund FDB-CV  - Erhebungseinheit"@de;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de,
+	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@en;
+	dct:title "Verbund FDB-CV  - Erhebungseinheit"@de,
+	"Verbund FDB-CV - Survey Unit"@en;
 	dct:description """Kontrolliertes Vokabular des VerbundFDB 
 
  Zitation: VerbundFDB: Erhebungseinheit Bildungsforschung. Version 2.0. Retrieved from https:\/\/mdr.iqb.hu-berlin.de\/#\/catalog\/003f2155-64f0-98c9-93c6-687d68090742. 
 
  im Vergleich zu Version 1 (https:\/\/mdr.iqb.hu-berlin.de\/#\/catalog\/94d1ae4f-a441-c728-4a03-adb0eb4604af) kamen folgende Ergänzungen hinzu:\nam 12.5.2022 Term Ausbilder\/Trainer ergänzt; am 21.1.2022 Term Babys\/Babies ergänzt; am 7. und 24.8.2020 Terme ins Englische übersetzt; am 6.7.2020 Term Betriebe\/Companies ergänzt; am 25.5.2020 Term Promotionsberechtigte ergänzt; am 19.3.2019 Terme Erwachsene\/Adults, Promovierende\/Doctoral Students, Studienzugangsberechtigte\/Persons Qualified for University ergänzt; am 21.2.2019 Term Kindergartenkinder\/Kindergarten Children ergänzt 
 
- Stand: 13.05.2022"""@de;
+ Stand: 13.05.2022"""@de,
+	"""Controlled Vocabulary created by VerbundFDB 
+
+ Citation: VerbundFDB: Survey Unit Educational Research. Version 2.0. Retrieved from https:\/\/mdr.iqb.hu-berlin.de\/#\/catalog\/003f2155-64f0-98c9-93c6-687d68090742.<\/p>\n\n<p>compared to version 1 (https:\/\/mdr.iqb.hu-berlin.de\/#\/catalog\/94d1ae4f-a441-c728-4a03-adb0eb4604af), the following additions were made:\non 12.5.2022 term Ausbilder\/Trainer added; on 21.1.2022 term Babys\/Babies added; on 7 and 24.8.2020 terms translated into English; on 6.7.2020 term Betriebe\/Companies added; on 25.5.2020 term Promotionsberechtigte\/Persons Qualified for Promotion added; on 19.3.2019 terms Erwachsene\/Adults, Promovierende\/Doctoral Students, Studienzugangsberechtigte\/Persons Qualified for University added; on 21.02.2019 term Kindergartenkinder\/Kindergarten Children added 
+
+ as of 13.05.2022 """@en;
 	skos:hasTopConcept
 		n1:15,
 		n1:24,

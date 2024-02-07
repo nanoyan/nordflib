@@ -8,96 +8,113 @@ n1:1
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Lehren und Lernen"@de.
+	skos:prefLabel "Lehren und Lernen"@de,
+	"Teaching and Learning"@en.
 n1:2
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Lebenschancen"@de.
+	skos:prefLabel "Lebenschancen"@de,
+	"Opportunities in Life"@en.
 n1:3
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Werte"@de.
+	skos:prefLabel "Werte"@de,
+	" Values"@en.
 n1:4
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Lebenswelt/Lebensbedingungen"@de.
+	skos:prefLabel "Lebenswelt/Lebensbedingungen"@de,
+	"Living Environment/Living Conditions"@en.
 n1:5
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Migration"@de.
+	skos:prefLabel "Migration"@de,
+	"Migration"@en.
 n1:6
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Digitalisierung"@de.
+	skos:prefLabel "Digitalisierung"@de,
+	"Digitisation"@en.
 n1:7
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Gleichstellung"@de.
+	skos:prefLabel "Gleichstellung"@de,
+	"Equality"@en.
 n1:8
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Arbeitsbedingungen"@de; 
+	skos:prefLabel "Arbeitsbedingungen"@de,
+	"Working Conditions"@en; 
 	skos:definition "Working Conditions"@de.
 n1:9
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Bestandsdaten/Institutioneller Hintergrund"@de.
+	skos:prefLabel "Bestandsdaten/Institutioneller Hintergrund"@de,
+	"Inventory Data/Institutional Background"@en.
 n1:10
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Evaluation/Qualitätsentwicklung"@de.
+	skos:prefLabel "Evaluation/Qualitätsentwicklung"@de,
+	"Evaluation/Quality Development"@en.
 n1:11
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Qualifikation"@de.
+	skos:prefLabel "Qualifikation"@de,
+	"Qualification"@en.
 n1:12
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Demographie individuell"@de.
+	skos:prefLabel "Demographie individuell"@de,
+	"Demography individual"@en.
 n1:13
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Kognitive Fähigkeiten/Kompetenzen"@de.
+	skos:prefLabel "Kognitive Fähigkeiten/Kompetenzen"@de,
+	"Cognitive Ability/Achievement"@en.
 n1:14
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Testverhalten"@de.
+	skos:prefLabel "Testverhalten"@de,
+	"Test Behaviour"@en.
 n1:15
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Testverfahren"@de.
+	skos:prefLabel "Testverfahren"@de,
+	"Testing"@en.
 n0:
 	a skos:ConceptScheme;
-	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
-	dct:title "Verbund FDB-CV  - Themenbereiche"@de;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de,
+	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@en;
+	dct:title "Verbund FDB-CV  - Themenbereiche"@de,
+	"Verbund FDB-CV - "@en;
 	skos:hasTopConcept
 		n1:1,
 		n1:2,

@@ -8,78 +8,93 @@ n1:1
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Interview: Rezeptives Interview"@de.
+	skos:prefLabel "Interview: Rezeptives Interview"@de,
+	""@en.
 n1:2
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Interview: Problemzentriertes Interview"@de.
+	skos:prefLabel "Interview: Problemzentriertes Interview"@de,
+	""@en.
 n1:3
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Interview: Leitfadeninterview"@de.
+	skos:prefLabel "Interview: Leitfadeninterview"@de,
+	""@en.
 n1:4
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Interview: Narratives Interview"@de.
+	skos:prefLabel "Interview: Narratives Interview"@de,
+	""@en.
 n1:5
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Interview: Tiefeninterview"@de.
+	skos:prefLabel "Interview: Tiefeninterview"@de,
+	""@en.
 n1:6
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Interview: Episodisches Interview"@de.
+	skos:prefLabel "Interview: Episodisches Interview"@de,
+	""@en.
 n1:7
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Interview: Halbstandardisiertes Interview"@de.
+	skos:prefLabel "Interview: Halbstandardisiertes Interview"@de,
+	""@en.
 n1:8
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Interview: Erzählgenerierendes Interview"@de.
+	skos:prefLabel "Interview: Erzählgenerierendes Interview"@de,
+	""@en.
 n1:9
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Interview: Ethnografisches Interview"@de.
+	skos:prefLabel "Interview: Ethnografisches Interview"@de,
+	""@en.
 n1:10
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Interview: Fokussiertes Interview"@de.
+	skos:prefLabel "Interview: Fokussiertes Interview"@de,
+	""@en.
 n1:12
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Interview: Experteninterview"@de.
+	skos:prefLabel "Interview: Experteninterview"@de,
+	""@en.
 n1:11
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Interview: Ero-episches Gespräch"@de.
+	skos:prefLabel "Interview: Ero-episches Gespräch"@de,
+	""@en.
 n0:
 	a skos:ConceptScheme;
-	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
-	dct:title "Verbund FDB-CV  - Erhebungsmethode"@de;
-	dct:description "Kontrolliertes Vokabular VerbundFDB: Erhebungsmethode"@de;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de,
+	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@en;
+	dct:title "Verbund FDB-CV  - Erhebungsmethode"@de,
+	"Verbund FDB-CV - "@en;
+	dct:description "Kontrolliertes Vokabular VerbundFDB: Erhebungsmethode"@de,
+	""@en;
 	skos:hasTopConcept
 		n1:1,
 		n1:2,
