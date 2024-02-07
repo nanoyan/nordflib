@@ -631,7 +631,7 @@ n0:
 	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@en;
 	dct:title "Verbund FDB-CV  - Erhebungsverfahren"@de,
 	"Verbund FDB-CV - Mode of Collection"@en;
-	dct:description " "" Kontrolliertes Vokabular VerbundFDB: Erhebungsverfahren. Implementierte überarbeitete Version in Anpassung an die Anforderungen des VerbundFDB 
+	dct:description """ Kontrolliertes Vokabular VerbundFDB: Erhebungsverfahren. Implementierte überarbeitete Version in Anpassung an die Anforderungen des VerbundFDB 
 
   Stand: 13.12.2016 
 
