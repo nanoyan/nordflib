@@ -32,8 +32,8 @@ n1:4
 	skos:topConceptOf n0:;
 	skos:prefLabel "Datensatz"@de,
 	"Dataset"@en; 
-	skos:definition "Hierunter fallen auch Logdaten (Hinweis: Im Metadatenschema daIra 4.0 kann bei der Auswahl des Resource Type "Datensatz" als Spezifizierung bei Resource Tpe Free "Logdaten" eingetragen werden.)."@de,
-	"This also includes logfiles (Note: In the metadata schema daIra 4.0, when selecting the Resource Type "Dataset", "logfiles" can be entered as a specification for Resource Type Free)."@en.
+	skos:definition "Hierunter fallen auch Logdaten (Hinweis: Im Metadatenschema daIra 4.0 kann bei der Auswahl des Resource Type 'Datensatz' als Spezifizierung bei Resource Tpe Free 'Logdaten' eingetragen werden.)."@de,
+	"This also includes logfiles (Note: In the metadata schema daIra 4.0, when selecting the Resource Type 'Dataset', 'logfiles' can be entered as a specification for Resource Type Free)."@en.
 n1:5
 	 a skos:Concept;
 	skos:inScheme n0:;

@@ -47,7 +47,7 @@ n1:5
 	skos:prefLabel "Zeitreihen"@de,
 	"Time series"@en; 
 	skos:definition "Daten, die in wiederholten Zeitabständen gesammelt wurden, um Veränderungen der Untersuchungseinheit zu untersuchen. Diese sind typischerweise „objektive“ Messungen von Phänomenen, die durch externe Beobachtung erhoben werden können, im Gegensatz zu Einstellungen/Meinungen oder Emotionen. Beispiele sind ökonomische/finanzielle Indikatoren, natürliche/meteorologische Phänomene, Bevölkerungsstatistik etc."@de,
-	"Data collected repeatedly over time to study change in observations. These are typically "objective" measurements of phenomena that can be observed externally, as opposed to attitudes/opinions or feelings. Examples may include economic/financial indicators, natural/meteorological phenomena, vital statistics, etc."@en.
+	"Data collected repeatedly over time to study change in observations. These are typically 'objective' measurements of phenomena that can be observed externally, as opposed to attitudes/opinions or feelings. Examples may include economic/financial indicators, natural/meteorological phenomena, vital statistics, etc."@en.
 n1:6
 	 a skos:Concept;
 	skos:inScheme n0:;
