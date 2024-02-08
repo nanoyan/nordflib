@@ -17,7 +17,7 @@ n1:4
 	skos:inScheme n0:;
 	skos:notation "1.1.2";
 	skos:broader n1:2;
-	skos:prefLabel "Persönliches PAPI (Papierfragebogen)"@de,
+	skos:prefLabel "PAPI (Papierfragebogen)"@de,
 	"PAPI (Paper and Pencil Interview)"@en; 
 	skos:definition "Papier-und-Bleistift-Befragung. Der Interviewer benutzt einen traditionellen Papierfragebogen, um die Fragen vorzulesen und die Antworten einzugeben."@de,
 	"Paper-and-pencil interviewing (PAPI). The interviewer uses a traditional paper questionnaire to read the questions and enter the answers. "@en.
@@ -404,7 +404,7 @@ n0:
 
    Englische Beschreibungen kommen von DDI Controlled Vocabulary for Mode Of Collection 
 
-	 hierbei handelt es sich um ein kontrolliertes Vokabular zur Prozedur, Technik oder Art der Erhebung, die verwendet wurde, um Daten zu bekommen. """@de,
+ hierbei handelt es sich um ein kontrolliertes Vokabular zur Prozedur, Technik oder Art der Erhebung, die verwendet wurde, um Daten zu bekommen. """@de,
 	"""Controlled Vocabulary GNERD: Mode of Collection 
 
  Implemented revised version adapted to the requirements of the GNERD 

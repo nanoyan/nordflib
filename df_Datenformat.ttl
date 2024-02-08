@@ -109,8 +109,8 @@ n1:15
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Andere"@de,
-	"Other"@en.
+	skos:prefLabel "Other"@de,
+	"andere"@en.
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de,
