@@ -10,13 +10,6 @@ n1:15
 	skos:topConceptOf n0:;
 	skos:prefLabel "Vorschulkinder"@de,
 	"Preschool Children"@en.
-n1:24
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "";
-	skos:topConceptOf n0:;
-	skos:prefLabel "Ausbilder"@de,
-	"Trainers"@en.
 n1:1
 	 a skos:Concept;
 	skos:inScheme n0:;
@@ -57,7 +50,7 @@ n1:13
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Schulleitungen"@de,
+	skos:prefLabel "Schulleitung"@de,
 	"Principals"@en.
 n1:7
 	 a skos:Concept;
@@ -163,7 +156,7 @@ n1:21
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Promotionsberechtigte"@de,
-	"Persons Qualified for Promotion"@en.
+	"Persons qualified for promotion"@en.
 n1:22
 	 a skos:Concept;
 	skos:inScheme n0:;
@@ -177,30 +170,41 @@ n1:23
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Babys"@de,
-	"Babies"@en; 
+	"Babys"@en; 
 	skos:definition "0-12 Monate"@de,
 	"0-12 months"@en.
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de,
 	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@en;
-	dct:title "Verbund FDB-CV  - Erhebungseinheit"@de,
-	"Verbund FDB-CV - Survey Unit"@en;
+	dct:title "VerbundFDB-CV  - Erhebungseinheit"@de,
+	"VerbundFDB-CV - Survey Unit"@en;
 	dct:description """Kontrolliertes Vokabular des VerbundFDB 
 
- Zitation: VerbundFDB: Erhebungseinheit Bildungsforschung. Version 2.0. Retrieved from https:\/\/mdr.iqb.hu-berlin.de\/#\/catalog\/003f2155-64f0-98c9-93c6-687d68090742. 
+ Zitation: VerbundFDB: Erhebungseinheit Bildungsforschung. Version 1.0. Retrieved from https://mdr.iqb.hu-berlin.de/#/catalog/94d1ae4f-a441-c728-4a03-adb0eb4604af 
 
- im Vergleich zu Version 1 (https:\/\/mdr.iqb.hu-berlin.de\/#\/catalog\/94d1ae4f-a441-c728-4a03-adb0eb4604af) kamen folgende Ergänzungen hinzu:\nam 12.5.2022 Term Ausbilder\/Trainer ergänzt; am 21.1.2022 Term Babys\/Babies ergänzt; am 7. und 24.8.2020 Terme ins Englische übersetzt; am 6.7.2020 Term Betriebe\/Companies ergänzt; am 25.5.2020 Term Promotionsberechtigte ergänzt; am 19.3.2019 Terme Erwachsene\/Adults, Promovierende\/Doctoral Students, Studienzugangsberechtigte\/Persons Qualified for University ergänzt; am 21.2.2019 Term Kindergartenkinder\/Kindergarten Children ergänzt 
+ aktualisiert aufgrund von Ergänzungen durch weitere Terme: 
 
- Stand: 13.05.2022"""@de,
+ am 6.7.2020 Betriebe; 
+
+ am 25.5.2020 Promotionsberechtigte; 
+
+ am 19.3.2019 Erwachsene, Promovierende, Studienzugangsberechtigte; 
+
+ am 21.2.2019 Kindergartenkinder inkl. engl. Term Kindergardeners 
+
+ am 7. und 24.8.2020 Terme ins Englische übersetzt 
+
+ Stand: 21.01.2022"""@de,
 	"""Controlled Vocabulary created by VerbundFDB 
 
- Citation: VerbundFDB: Survey Unit Educational Research. Version 2.0. Retrieved from https:\/\/mdr.iqb.hu-berlin.de\/#\/catalog\/003f2155-64f0-98c9-93c6-687d68090742.<\/p>\n\n<p>compared to version 1 (https:\/\/mdr.iqb.hu-berlin.de\/#\/catalog\/94d1ae4f-a441-c728-4a03-adb0eb4604af), the following additions were made:\non 12.5.2022 term Ausbilder\/Trainer added; on 21.1.2022 term Babys\/Babies added; on 7 and 24.8.2020 terms translated into English; on 6.7.2020 term Betriebe\/Companies added; on 25.5.2020 term Promotionsberechtigte\/Persons Qualified for Promotion added; on 19.3.2019 terms Erwachsene\/Adults, Promovierende\/Doctoral Students, Studienzugangsberechtigte\/Persons Qualified for University added; on 21.02.2019 term Kindergartenkinder\/Kindergarten Children added 
+ Citation: 
 
- as of 13.05.2022 """@en;
+ GNERD: Survey Unit Educational Research. Version 1.0. Retrieved from https://mdr.iqb.hu-berlin.de/admin/#/catalog/94d1ae4f-a441-c728-4a03-adb0eb4604af 
+
+ 2018 """@en;
 	skos:hasTopConcept
 		n1:15,
-		n1:24,
 		n1:1,
 		n1:6,
 		n1:14,

@@ -22,7 +22,7 @@ n1:3
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Umfrage- und Aggregatdaten"@de,
+	skos:prefLabel "Umfrage- und Aggregatedaten"@de,
 	"Survey Data"@en.
 n1:99
 	 a skos:Concept;
@@ -35,8 +35,8 @@ n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de,
 	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@en;
-	dct:title "Verbund FDB-CV  - Datentyp"@de,
-	"Verbund FDB-CV - ResourceType"@en;
+	dct:title "VerbundFDB-CV  - Datentyp"@de,
+	"VerbundFDB-CV - ResourceType"@en;
 	skos:hasTopConcept
 		n1:1,
 		n1:2,

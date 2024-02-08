@@ -91,10 +91,18 @@ n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de,
 	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@en;
-	dct:title "Verbund FDB-CV  - Erhebungsmethode"@de,
-	"Verbund FDB-CV - "@en;
-	dct:description "Kontrolliertes Vokabular VerbundFDB: Erhebungsmethode"@de,
-	""@en;
+	dct:title "VerbundFDB-CV  - Erhebungsmethode"@de,
+	"VerbundFDB-CV - Survey Method"@en;
+	dct:description """Kontrolliertes Vokabular VerbundFDB: Erhebungsmethode 
+
+ Stand: 11.05.2020 
+
+ Hierbei handelt es sich um ein kontrolliertes Vokabular zur Erhebungsmethode, die verwendet wurde, um Daten zu bekommen. """@de,
+	"""Controlled Vocabulary: Survey Method 
+
+ as of: 11.05.2020 
+
+ This is a controlled vocabulary of the survey method used to obtain data."""@en;
 	skos:hasTopConcept
 		n1:1,
 		n1:2,

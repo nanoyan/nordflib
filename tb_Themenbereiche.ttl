@@ -113,8 +113,10 @@ n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de,
 	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@en;
-	dct:title "Verbund FDB-CV  - Themenbereiche"@de,
-	"Verbund FDB-CV - "@en;
+	dct:title "VerbundFDB-CV  - Themenbereiche"@de,
+	"VerbundFDB-CV - Themes"@en;
+	dct:description "Themenbereiche von Forschungsdaten des VerbundFDB"@de,
+	"Themes for research data of the VerbundFDB"@en;
 	skos:hasTopConcept
 		n1:1,
 		n1:2,

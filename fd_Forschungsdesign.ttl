@@ -61,8 +61,8 @@ n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de,
 	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@en;
-	dct:title "Verbund FDB-CV  - Forschungsdesign"@de,
-	"Verbund FDB-CV - Research Design"@en;
+	dct:title "VerbundFDB-CV  - Forschungsdesign"@de,
+	"VerbundFDB-CV - Research Design"@en;
 	dct:description """Kontrolliertes Vokabular VerbundFDB: Forschungsdesign 
 
  Implementierte überarbeitete Version in Anpassung an die Anforderungen des VerbundFDB 

@@ -61,8 +61,8 @@ n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de,
 	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@en;
-	dct:title "Verbund FDB-CV  - Zugriff"@de,
-	"Verbund FDB-CV - Access"@en;
+	dct:title "VerbundFDB-CV  - Zugriff"@de,
+	"VerbundFDB-CV - Access"@en;
 	dct:description "Zugangsbedingungen und Zugriffswege in den FDZ des VerbundFDB auf Forschungsdaten"@de,
 	"Access conditions and access routes to research data in the FDZs of the VerbundFDB"@en;
 	skos:hasTopConcept
