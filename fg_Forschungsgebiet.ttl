@@ -3,140 +3,140 @@
 @prefix n0: <https://w3id.org/iqb/v85/fg/>. 
 @prefix n1: <https://w3id.org/iqb/v85/fg/>. 
 
-n1:t5u
+n1:b7c
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Sprach- / Literaturwissenschaft"@de,
 	"Languages and literature"@en.
-n1:r2p
+n1:g6g
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Biologie"@de,
 	"Biology"@en.
-n1:y7x
+n1:d4d
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Chemie"@de,
 	"Chemistry"@en.
-n1:p3s
+n1:v9g
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Ethnologie"@de,
 	"Cultural studies / ethnology"@en.
-n1:c5t
+n1:b3p
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Fachdidaktik"@de,
 	"Pedagogical content knowledge (PCK)"@en.
-n1:b5u
+n1:d6x
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Geowissenschaften"@de,
 	"Geosciences / earth sciences"@en.
-n1:f2t
+n1:x3s
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Geschichte"@de,
 	"History"@en.
-n1:f4u
+n1:g4h
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Computer Science"@de,
 	"Informatik"@en.
-n1:r7q
+n1:b4s
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Kunst"@de,
 	"Applied Arts"@en.
-n1:v4h
+n1:r3b
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Mathematik"@de,
 	"Mathematics"@en.
-n1:s7v
+n1:b6r
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Medizin"@de,
 	"Medicine"@en.
-n1:y2f
+n1:b9x
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Pädagogik"@de,
 	"Education"@en.
-n1:c3f
+n1:q2f
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Musik"@de,
 	"Music"@en.
-n1:t3v
+n1:p5y
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Physik"@de,
 	"Physics"@en.
-n1:v6b
+n1:h2r
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Politikwissenschaft"@de,
 	"Political Science"@en.
-n1:h3s
+n1:d6h
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Psychologie"@de,
 	"Psychology"@en.
-n1:d5v
+n1:f4z
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Soziologie"@de,
 	"Sociology"@en.
-n1:b6s
+n1:b9s
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Sport"@de,
 	"Physical Education / Sports"@en.
-n1:a4x
+n1:c6s
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Wirtschaftswissenschaften"@de,
 	"Business and Economics"@en.
-n1:u2a
+n1:y3h
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
@@ -164,23 +164,23 @@ n0:
 
  https://en.wikipedia.org/wiki/Outline_of_academic_disciplines"""@en;
 	skos:hasTopConcept
-		n1:t5u,
-		n1:r2p,
-		n1:y7x,
-		n1:p3s,
-		n1:c5t,
-		n1:b5u,
-		n1:f2t,
-		n1:f4u,
-		n1:r7q,
-		n1:v4h,
-		n1:s7v,
-		n1:y2f,
-		n1:c3f,
-		n1:t3v,
-		n1:v6b,
-		n1:h3s,
-		n1:d5v,
-		n1:b6s,
-		n1:a4x,
-		n1:u2a.
+		n1:b7c,
+		n1:g6g,
+		n1:d4d,
+		n1:v9g,
+		n1:b3p,
+		n1:d6x,
+		n1:x3s,
+		n1:g4h,
+		n1:b4s,
+		n1:r3b,
+		n1:b6r,
+		n1:b9x,
+		n1:q2f,
+		n1:p5y,
+		n1:h2r,
+		n1:d6h,
+		n1:f4z,
+		n1:b9s,
+		n1:c6s,
+		n1:y3h.

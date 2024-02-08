@@ -78,8 +78,8 @@ n1:1
 	skos:topConceptOf n0:;
 	skos:prefLabel "Interview"@de,
 	"Interview"@en; 
-	skos:definition "Eine vorab geplante Kommunikation zwischen zwei (oder mehreren) Personen - dem/den Interviewer(n) und dem/den Befragten-in der der/die Interviewer von dem/den Interviewpartner(n) Informationen erhält/erhalten. Wenn Gruppeninteraktion Teil der Erhebungsmethode ist, verwenden Siedie Kategorie"Fokusgruppe"."@de,
-	"A pre-planned communication between two (or more) people - the interviewer(s) and the interviewee(s) - in which information is obtained by the interviewer(s) from the interviewee(s). If group interaction is part of the method, use "Focus group"."@en;
+	skos:definition "Eine vorab geplante Kommunikation zwischen zwei (oder mehreren) Personen - dem/den Interviewer(n) und dem/den Befragten-in der der/die Interviewer von dem/den Interviewpartner(n) Informationen erhält/erhalten. Wenn Gruppeninteraktion Teil der Erhebungsmethode ist, verwenden Siedie Kategorie 'Fokusgruppe'."@de,
+	"A pre-planned communication between two (or more) people - the interviewer(s) and the interviewee(s) - in which information is obtained by the interviewer(s) from the interviewee(s). If group interaction is part of the method, use 'Focus group'."@en;
 	skos:narrower 
 		n1:2,
 		n1:5,
@@ -252,8 +252,8 @@ n1:33
 	skos:topConceptOf n0:;
 	skos:prefLabel "Inhaltscodierung"@de,
 	"Content Coding"@en; 
-	skos:definition "Als eine Art der Sekundärdatensammlung, setzt Inhaltscodierung Codierungstechniken ein, um qualitative Daten (Text-, Video-, Audio oder Standbild ), die ursprünglich für andere Zwecke produziert wurden, in quantitative Daten (ausgedrückt in einer Unit-by-Variable Matrix) nach einem zuvor erstellten Kategorienschema umzuwandeln. Zum Beispiel kodierte Parteiprogrammdaten wie „European Parliament Election Study 2009, Manifesto Study" (doi:10.4232/1.10204)"@de,
-	"As a mode of secondary data collection, content coding applies coding techniques to transform qualitative data (textual, video, audio or still-image) originally produced for other purposes into quantitative data (expressed in unit-by-variable matrices) in accordance with pre-defined categorization schemes. For example, coded party manifesto data like the "European Parliament Election Study 2009, Manifesto Study" (doi:10.4232/1.10204)"."@en.
+	skos:definition "Als eine Art der Sekundärdatensammlung, setzt Inhaltscodierung Codierungstechniken ein, um qualitative Daten (Text-, Video-, Audio oder Standbild ), die ursprünglich für andere Zwecke produziert wurden, in quantitative Daten (ausgedrückt in einer Unit-by-Variable Matrix) nach einem zuvor erstellten Kategorienschema umzuwandeln. Zum Beispiel kodierte Parteiprogrammdaten wie ,European Parliament Election Study 2009, Manifesto Study' (doi:10.4232/1.10204)"@de,
+	"As a mode of secondary data collection, content coding applies coding techniques to transform qualitative data (textual, video, audio or still-image) originally produced for other purposes into quantitative data (expressed in unit-by-variable matrices) in accordance with pre-defined categorization schemes. For example, coded party manifesto data like the 'European Parliament Election Study 2009, Manifesto Study' (doi:10.4232/1.10204)."@en.
 n1:34
 	 a skos:Concept;
 	skos:inScheme n0:;
