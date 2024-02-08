@@ -3,7 +3,7 @@
 @prefix n0: <https://w3id.org/iqb/v85/fg/>. 
 @prefix n1: <https://w3id.org/iqb/v85/fg/>. 
 
-n1:Sprach- / Literaturwissenschaft
+n1:Wissenschaft
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
@@ -164,7 +164,7 @@ n0:
 
  https://en.wikipedia.org/wiki/Outline_of_academic_disciplines"""@en;
 	skos:hasTopConcept
-		n1:Sprach- / Literaturwissenschaft,
+		n1:Wissenschaft,
 		n1:Biologie,
 		n1:Chemie,
 		n1:Ethnologie,
