@@ -1,8 +1,8 @@
 @prefix dct: <http://purl.org/dc/terms/>.
-@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
-@prefix n0: <https://w3id.org/iqb/v40/k1/>.
-@prefix n1: <https://w3id.org/iqb/v40/k1/>.
+@prefix n0: <https://w3id.org/iqb/v40/k1/>. 
+@prefix n1: <https://w3id.org/iqb/v40/k1/>. 
 
 n1:y2p
 	 a skos:Concept;
@@ -39,9 +39,9 @@ n1:v9x
 	skos:inScheme n0:;
 	skos:notation "F 1";
 	skos:broader n1:x6h;
-	skos:prefLabel "Stoff-Teilchen-Beziehungen"@de;
+	skos:prefLabel "Stoff-Teilchen-Beziehungen"@de; 
 	skos:definition "Die Schülerinnen und Schüler können..."@de;
-	skos:narrower
+	skos:narrower 
 		n1:y2p,
 		n1:y5b,
 		n1:a7y,
@@ -70,9 +70,9 @@ n1:g9b
 	skos:inScheme n0:;
 	skos:notation "F 2";
 	skos:broader n1:x6h;
-	skos:prefLabel "Struktur-Eigenschafts-Beziehungen"@de;
+	skos:prefLabel "Struktur-Eigenschafts-Beziehungen"@de; 
 	skos:definition "Die Schülerinnen und Schüler ..."@de;
-	skos:narrower
+	skos:narrower 
 		n1:q9f,
 		n1:t4x,
 		n1:v5y.
@@ -123,9 +123,9 @@ n1:g6s
 	skos:inScheme n0:;
 	skos:notation "F 3";
 	skos:broader n1:x6h;
-	skos:prefLabel "chemische Reaktion"@de;
+	skos:prefLabel "chemische Reaktion"@de; 
 	skos:definition "Die Schülerinnen und Schüler ..."@de;
-	skos:narrower
+	skos:narrower 
 		n1:g3y,
 		n1:y9y,
 		n1:q4y,
@@ -156,9 +156,9 @@ n1:u9p
 	skos:inScheme n0:;
 	skos:notation "F 4";
 	skos:broader n1:x6h;
-	skos:prefLabel "energetische Betrachtung bei Stoffumwandlungen"@de;
+	skos:prefLabel "energetische Betrachtung bei Stoffumwandlungen"@de; 
 	skos:definition "Die Schülerinnen und Schüler ..."@de;
-	skos:narrower
+	skos:narrower 
 		n1:d4e,
 		n1:h9z,
 		n1:c6x.
@@ -167,9 +167,9 @@ n1:x6h
 	skos:inScheme n0:;
 	skos:notation "F ";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Fachwissen"@de;
+	skos:prefLabel "Fachwissen"@de; 
 	skos:definition "Chemische Phänomene, Begriffe, Gesetzmäßigkeiten kennen und Basiskonzepten zuordnen"@de;
-	skos:narrower
+	skos:narrower 
 		n1:v9x,
 		n1:g9b,
 		n1:g6s,
@@ -227,9 +227,9 @@ n1:y3p
 	skos:inScheme n0:;
 	skos:notation "E ";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Erkenntnisgewinnung"@de;
-	skos:definition """Experimentelle und andere Untersuchungsmethoden sowie Modelle nutzen.\n\n Die Schülerinnen und Schüler ..."""@de;
-	skos:narrower
+	skos:prefLabel "Erkenntnisgewinnung"@de; 
+	skos:definition """Experimentelle und andere Untersuchungsmethoden sowie Modelle nutzen.\n\nDie Schülerinnen und Schüler ..."""@de;
+	skos:narrower 
 		n1:v5c,
 		n1:g6h,
 		n1:h6x,
@@ -303,9 +303,9 @@ n1:y4q
 	skos:inScheme n0:;
 	skos:notation "K ";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Kommunikation"@de;
-	skos:definition """Informationen sach- und fachbezogen erschließen und austauschen.\n\n Die Schülerinnen und Schüler ..."""@de;
-	skos:narrower
+	skos:prefLabel "Kommunikation"@de; 
+	skos:definition """Informationen sach- und fachbezogen erschließen und austauschen.\n\nDie Schülerinnen und Schüler ..."""@de;
+	skos:narrower 
 		n1:p9d,
 		n1:d3t,
 		n1:u3t,
@@ -357,9 +357,9 @@ n1:e4u
 	skos:inScheme n0:;
 	skos:notation "B ";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Bewertung"@de;
+	skos:prefLabel "Bewertung"@de; 
 	skos:definition """Chemische Sachverhalte in verschiedenen Kontexten erkennen und bewerten.\nDie Schülerinnen und Schüler ..."""@de;
-	skos:narrower
+	skos:narrower 
 		n1:a6g,
 		n1:g5r,
 		n1:e2r,
@@ -370,7 +370,8 @@ n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
 	dct:title "Bildungsstandards im Fach Chemie MSA 2004 - Standards für die Kompetenzbereiche des Faches Chemie"@de;
-	dct:description """Mit dem Erwerb des Mittleren Schulabschlusses verfügen die Schülerinnen und Schüler über naturwissenschaftliche Kompetenzen im Allgemeinen sowie chemische Kompetenzen im Besonderen. \n\n
+	dct:description """Mit dem Erwerb des Mittleren Schulabschlusses verfügen die Schülerinnen und Schüler über naturwissenschaftliche Kompetenzen im Allgemeinen sowie chemische Kompetenzen im Besonderen.
+
 Kompetenzen sind nach Weinert (2001) ,die bei Individuen verfügbaren oder durch sie erlernbaren kognitiven Fähigkeiten und Fertigkeiten, um bestimmte Probleme zu lösen, sowie die damit verbundenen motivationalen, volitionalen und sozialen Bereitschaften und Fähigkeiten, um die Problemlösungen in variablen Situationen erfolgreich und verantwortungsvoll nutzen zu können'. Die Kompetenzen, die eine naturwissenschaftliche Grundbildung ausmachen, bieten Anknüpfungspunkte für fachübergreifendes und fächerverbindendes Arbeiten. Sie werden ohne Berücksichtigung ihrer Vernetzung vier Bereichen zugeordnet und für das Fach Chemie spezifiziert:"""@de;
 	skos:hasTopConcept
 		n1:x6h,
