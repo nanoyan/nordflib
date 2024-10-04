@@ -1,36 +1,36 @@
 @prefix dct: <http://purl.org/dc/terms/>.
-@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
-@prefix n0: <https://w3id.org/iqb/v46/a1/>.
-@prefix n1: <https://w3id.org/iqb/v46/a1/>.
+@prefix n0: <https://w3id.org/iqb/v40/a1/>. 
+@prefix n1: <https://w3id.org/iqb/v40/a1/>. 
 
 n1:s5r
 	 a skos:Concept;
-	skos:inScheme n0:;6
+	skos:inScheme n0:;
 	skos:notation "1.1";
 	skos:broader n1:g5q;
-	skos:prefLabel "Fachwissen"@de;
+	skos:prefLabel "Fachwissen"@de; 
 	skos:definition "Wissen wiedergeben. Fakten und einfache physikalischeSachverhalte reproduzieren."@de.
 n1:x4g
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.2";
 	skos:broader n1:g5q;
-	skos:prefLabel "Erkenntnisgewinnung"@de;
+	skos:prefLabel "Erkenntnisgewinnung"@de; 
 	skos:definition "Fachmethoden beschreiben. Physikalische Arbeitsweisen, insb. experimentelle, nachvollziehen bzw. beschreiben."@de.
 n1:g6h
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.3";
 	skos:broader n1:g5q;
-	skos:prefLabel "Kommunikation"@de;
+	skos:prefLabel "Kommunikation"@de; 
 	skos:definition "Mit vorgegebenen Darstellungsformen arbeiten. Einfache Sachverhalte in Wort und Schrift oder einer anderen vorgegebenen Form unter Anleitung darstellen, sachbezogene Fragen stellen. "@de.
 n1:b9p
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.4";
 	skos:broader n1:g5q;
-	skos:prefLabel "Bewertung"@de;
+	skos:prefLabel "Bewertung"@de; 
 	skos:definition "Vorgegebene Bewertungen nachvollziehen. Auswirkungen physikalischer Erkenntnisse benennen, einfache, auch technische Kontexte aus physikalischer Sicht erläutern."@de.
 n1:g5q
 	 a skos:Concept;
@@ -38,7 +38,7 @@ n1:g5q
 	skos:notation "1";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Anforderungsbereich I"@de;
-	skos:narrower
+	skos:narrower 
 		n1:s5r,
 		n1:x4g,
 		n1:g6h,
@@ -48,28 +48,28 @@ n1:h7d
 	skos:inScheme n0:;
 	skos:notation "2.1";
 	skos:broader n1:c7a;
-	skos:prefLabel "Fachwissen"@de;
+	skos:prefLabel "Fachwissen"@de; 
 	skos:definition "Wissen anwenden. Physikalisches Wissen in einfachen Kontexten anwenden, einfache Sachverhalte identifizieren und nutzen, Analogien benennen."@de.
 n1:v7z
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.2";
 	skos:broader n1:c7a;
-	skos:prefLabel "Erkenntnisgewinnung"@de;
+	skos:prefLabel "Erkenntnisgewinnung"@de; 
 	skos:definition "Fachmethoden nutzen. Strategien zur Lösung von Aufgaben nutzen, einfache Experimente planen und durchführen, Wissen nach Anleitung erschließen."@de.
 n1:b9c
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.3";
 	skos:broader n1:c7a;
-	skos:prefLabel "Kommunikation"@de;
+	skos:prefLabel "Kommunikation"@de; 
 	skos:definition "Geeignete Darstellungsformen nutzen. Sachverhalte fachsprachlich und strukturiert darstellen, auf Beiträge anderer sachgerecht eingehen, Aussagen sachlich begründen. "@de.
 n1:h5e
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.4";
 	skos:broader n1:c7a;
-	skos:prefLabel "Bewertung"@de;
+	skos:prefLabel "Bewertung"@de; 
 	skos:definition "Vorgegebene Bewertungen beurteilen und kommentieren. Den Aspektcharakter physikalischer Betrachtungen aufzeigen, zwischen physikalischen und anderen Komponenten einer Bewertung unterscheiden."@de.
 n1:c7a
 	 a skos:Concept;
@@ -77,7 +77,7 @@ n1:c7a
 	skos:notation "2";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Anforderungsbereich II"@de;
-	skos:narrower
+	skos:narrower 
 		n1:h7d,
 		n1:v7z,
 		n1:b9c,
@@ -87,28 +87,28 @@ n1:g3d
 	skos:inScheme n0:;
 	skos:notation "3.1";
 	skos:broader n1:z7a;
-	skos:prefLabel "Fachwissen"@de;
+	skos:prefLabel "Fachwissen"@de; 
 	skos:definition "Wissen transferieren und verknüpfen. Wissen auf teilweise unbekannte Kontexte anwenden, geeignete Sachverhalte auswählen."@de.
 n1:e5u
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.2";
 	skos:broader n1:z7a;
-	skos:prefLabel "Erkenntnisgewinnung"@de;
+	skos:prefLabel "Erkenntnisgewinnung"@de; 
 	skos:definition "Fachmethoden problembezogen auswählen und anwenden. Unterschiedliche Fachmethoden, auch einfaches Experimentieren und Mathematisieren, kombiniert und zielgerichtet auswählen und einsetzen, Wissen selbstständig erwerben."@de.
 n1:g4x
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.3";
 	skos:broader n1:z7a;
-	skos:prefLabel "Kommunikation"@de;
+	skos:prefLabel "Kommunikation"@de; 
 	skos:definition "Darstellungsformen selbständig auswählen und nutzen. Darstellungsformen sach- und adressatengerecht auswählen, anwenden und reflektieren, auf angemessenem Niveau begrenzte Themen diskutieren."@de.
 n1:x3h
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.4";
 	skos:broader n1:z7a;
-	skos:prefLabel "Bewertung"@de;
+	skos:prefLabel "Bewertung"@de; 
 	skos:definition "Eigene Bewertungen vornehmen. Die Bedeutung physikalischer Kenntnisse beurteilen, physikalische Erkenntnisse als Basis für die Bewertung eines Sachverhalts nutzen, Phänomene in einen physikalischen Kontext einordnen."@de.
 n1:z7a
 	 a skos:Concept;
@@ -116,7 +116,7 @@ n1:z7a
 	skos:notation "3";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Anforderungsbereich III"@de;
-	skos:narrower
+	skos:narrower 
 		n1:g3d,
 		n1:e5u,
 		n1:g4x,
@@ -124,8 +124,8 @@ n1:z7a
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
-	dct:title "Bildungsstandards im Fach Physik MSA 2004 - Fachspezifische Beschreibung der Anforderungsbereiche"@de;
-	dct:description "Da noch keine empirisch abgesicherten Kompetenzstufenmodelle vorliegen, wird zunächst zur Einschätzung der in den Aufgabenbeispielen gestellten Anforderungen auf drei Bereiche zurückgegriffen, die sich in ihrer Beschreibung an den Einheitlichen Prüfungsanforderungen in der Abiturprüfung (EPA) orientieren. Dabei gilt, dass die Anforderungsbereiche nicht Ausprägungen oder Niveaustufen einer Kompetenz sind. Es handelt sich vielmehr um Merkmale von Aufgaben, die verschiedene Schwierigkeitsgrade innerhalb ein und derselben Kompetenz abbilden können. Die nachfolgenden Formulierungen zeigen deshalb zunächst charakterisierende Kriterien zur Einordnung in einen der Anforderungsbereiche auf.e"@de;
+	dct:title "Bildungsstandards im Fach Chemie MSA 2004 - Fachspezifische Beschreibung der Anforderungsbereiche"@de;
+	dct:description "Fachspezifische Beschreibung der Anforderungsbereiche"@de;
 	skos:hasTopConcept
 		n1:g5q,
 		n1:c7a,
