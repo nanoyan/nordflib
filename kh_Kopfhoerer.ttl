@@ -1,0 +1,33 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v25/kh/>.
+
+n0:r5f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Keine"@de.
+n0:b6h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Optional"@de.
+n0:d3q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Pflicht"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Allgemeines Vokabular - Kopfhörer"@de;
+	dc:title "Allgemeines Vokabular - Kopfhörer"@de;
+	dc:description "Allgemeines Vokabular - Kopfhörer"@de;
+	skos:hasTopConcept
+		n0:r5f,
+		n0:b6h,
+		n0:d3q.
