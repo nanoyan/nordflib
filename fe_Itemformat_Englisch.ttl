@@ -2,7 +2,6 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix n0: <https://w3id.org/iqb/v27/fe/>. 
-@prefix n1: <https://w3id.org/iqb/v27/fe/>. 
 
 n1:y9s
 	 a skos:Concept;
