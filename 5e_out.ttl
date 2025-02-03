@@ -3,31 +3,31 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix n0: <https://w3id.org/iqb/v34/5e/>. 
 
-n1:see
+n0:see
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "GA - Geschlossen Ankreuzen"@de.
-n1:ud7
+n0:ud7
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "GK - Geschlossen Kodieren"@de.
-n1:q7b
+n0:q7b
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "0/1 - Einfach dichotom"@de.
-n1:p2a
+n0:p2a
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "1+ - Mehrere Variablen und/oder Codes"@de.
-n1:2v5
+n0:2v5
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
@@ -39,8 +39,8 @@ n0:
 	dct:title "Vokabulare zur Beschreibung des Itemformates - Itemformat 5er Liste"@de;
 	dct:description "Itemformat 5er Liste description"@de;
 	skos:hasTopConcept
-		n1:see,
-		n1:ud7,
-		n1:q7b,
-		n1:p2a,
-		n1:2v5.
+		n0:see,
+		n0:ud7,
+		n0:q7b,
+		n0:p2a,
+		n0:2v5.
