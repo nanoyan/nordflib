@@ -2,3 +2,4 @@ title,description,url
 "IQB Mathematik Primarstufe, Aufgaben und Items","Metadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklung für Mathematik in der Primarstufe (VERA, Bildungstrend)",https://raw.githubusercontent.com/iqb-vocabs/p11/master/profile-config.json
 "IQB Deutsch Primarstufe, Aufgaben und Items","Metadatenprofile für Aufgaben und Items des IQB im Rahmen der Aufgabenentwicklung für Deutsch in der Primarstufe (VERA, Bildungstrend)",https://raw.githubusercontent.com/iqb-vocabs/p12/master/profile-config.json
 "Probe Profil","Probe Metadatenprofile",https://raw.githubusercontent.com/nanoyan/pProbe/master/profile-config.json
+"Temporal Profil","Temporal Metadatenprofile",https://raw.githubusercontent.com/nanoyan/ptemporal/master/profile-config.json
