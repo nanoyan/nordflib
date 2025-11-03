@@ -184,7 +184,6 @@ n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de,
 	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@en;
-	dct:license <https://creativecommons.org/licenses/by-sa/4.0/>;
 	dct:title "VerbundFDB - Kontrolliertes Vokabular - Auswahlverfahren"@de,
 	"VerbundFDB - Controlled Vocabulary - Sampling Procedure"@en;
 	dct:description """Hierbei handelt es sich um ein kontrolliertes Vokabular zur Beschreibung des Auswahlverfahrens für die Stichprobe, welches der VerbundFDB von DDI übernommen hat und für sein Metadatenschema an-/verwendet.
