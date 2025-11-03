@@ -186,6 +186,8 @@ n0:
 	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@en;
 	dct:title "VerbundFDB - Kontrolliertes Vokabular - Auswahlverfahren"@de,
 	"VerbundFDB - Controlled Vocabulary - Sampling Procedure"@en;
+	dct:license "<https://creativecommons.org/publicdomain/zero/1.0/deed.de>"@de,
+	"<https://creativecommons.org/licenses/by-sa/4.0/>"@en;
 	dct:description """Hierbei handelt es sich um ein kontrolliertes Vokabular zur Beschreibung des Auswahlverfahrens für die Stichprobe, welches der VerbundFDB von DDI übernommen hat und für sein Metadatenschema an-/verwendet.
 
 Zitation: VerbundFDB: Auswahlverfahren Bildungsforschung. Version 1.0. Verfügbar unter https://w3id.org/iqb/v85/av/.
