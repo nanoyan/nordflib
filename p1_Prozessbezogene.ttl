@@ -138,7 +138,7 @@ n0:d4t
 	skos:inScheme n0:;
 	skos:notation "2.2.1";
 	skos:broader n0:s5r;
-	skos:prefLabel "stellen Überlegungen, Lösungswege bzw. Ergebnisse und Verfahren verständlichdar,"@de.
+	skos:prefLabel "stellen Überlegungen, Lösungswege bzw. Ergebnisse und Verfahren verständlich dar,"@de.
 n0:x5a
 	 a skos:Concept;
 	skos:inScheme n0:;

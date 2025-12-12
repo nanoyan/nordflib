@@ -32,7 +32,7 @@ n0:e2b
 	skos:inScheme n0:;
 	skos:notation "1.5";
 	skos:broader n0:g7b;
-	skos:prefLabel "stellen Zahlen der Situation angemessen dar, unter anderem in Zehnerpotenzschreibweise,"@de.
+	skos:prefLabel "stellen Zahlen der Situation angemessen dar, z.B. unter anderem in Zehnerpotenzschreibweise,"@de.
 n0:q7y
 	 a skos:Concept;
 	skos:inScheme n0:;
@@ -92,7 +92,7 @@ n0:c6y
 	skos:inScheme n0:;
 	skos:notation "1.15";
 	skos:broader n0:g7b;
-	skos:prefLabel "erläutern Potenzen und Wurzeln und berechnen einfache Beispiele ohne digitale Medien,"@de.
+	skos:prefLabel "erläutern Potenzen und Wurzeln und berechnen einfache Potenzen und Wurzeln,"@de.
 n0:g7x
 	 a skos:Concept;
 	skos:inScheme n0:;
@@ -162,7 +162,7 @@ n0:r4u
 	skos:inScheme n0:;
 	skos:notation "2.2";
 	skos:broader n0:t9v;
-	skos:prefLabel "wählen Einheiten von Größen situationsgerecht aus (insbesondere für Zeitspannen, Masse, Geld, Länge, Fläche, Volumen und Winkel) und wandeln sie ggf. um,"@de.
+	skos:prefLabel "wählen Einheiten von Größen situationsgerecht aus (insbesondere für Zeit, Masse, Geld, Länge, Fläche, Volumen und Winkel) und wandeln sie ggf. um,"@de.
 n0:c2a
 	 a skos:Concept;
 	skos:inScheme n0:;
@@ -180,7 +180,7 @@ n0:a5s
 	skos:inScheme n0:;
 	skos:notation "2.5";
 	skos:broader n0:t9v;
-	skos:prefLabel "berechnen Volumen und Oberflächeninhalt von Quader, Prisma, Pyramide, Zylinder, Kegel und Kugel sowie daraus zusammengesetzten Körpern, auch mit Hilfe digitaler Mathematikwerkzeuge,"@de.
+	skos:prefLabel "berechnen Volumen und Oberflächeninhalt von Prisma, Pyramide, Zylinder, Kegel und Kugel sowie daraus zusammengesetzten Körpern, auch mit Hilfe digitaler Mathematikwerkzeuge,"@de.
 n0:d4p
 	 a skos:Concept;
 	skos:inScheme n0:;
@@ -192,7 +192,7 @@ n0:t7d
 	skos:inScheme n0:;
 	skos:notation "2.7";
 	skos:broader n0:t9v;
-	skos:prefLabel "berechnen Streckenlängen und Winkelgrößen, auch unter Nutzung des Satzes von Pythagoras, von trigonometrischen Beziehungen, Ähnlichkeitsbeziehungen und Sinussatz oder Kosinussatz, auch mit Hilfe digitaler Mathematikwerkzeuge."@de.
+	skos:prefLabel "berechnen Streckenlängen und Winkelgrößen, auch unter Nutzung des Satzes von Pythagoras, von trigonometrischen Beziehungen und Ähnlichkeitsbeziehungen, auch mit Hilfe digitaler Mathematikwerkzeuge."@de.
 n0:t9v
 	 a skos:Concept;
 	skos:inScheme n0:;
@@ -396,7 +396,7 @@ n0:e2q
 	skos:inScheme n0:;
 	skos:notation "5.2";
 	skos:broader n0:z4s;
-	skos:prefLabel "nutzen Simulationen um stochastische Fragen zu entscheiden,"@de.
+	skos:prefLabel "nutzen Simulationen, um stochastische Fragen zu entscheiden,"@de.
 n0:u7c
 	 a skos:Concept;
 	skos:inScheme n0:;

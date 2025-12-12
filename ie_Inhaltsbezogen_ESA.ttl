@@ -92,7 +92,7 @@ n0:h5x
 	skos:inScheme n0:;
 	skos:notation "1.17";
 	skos:broader n0:a3b;
-	skos:prefLabel "wählen und beschreiben Vorgehensweisen und Verfahren, denen Algorithmen bzw. Kalküle zu Grunde liegen und führen diese aus (z. B. schriftliche Division)."@de.
+	skos:prefLabel "wählen und beschreiben Vorgehensweisen und Verfahren, denen Algorithmen bzw. Kalküle zu Grunde liegen und führen diese aus (z. B. schriftliche Rechenoperationen)."@de.
 n0:a3b
 	 a skos:Concept;
 	skos:inScheme n0:;
@@ -127,7 +127,7 @@ n0:u7y
 	skos:inScheme n0:;
 	skos:notation "2.2";
 	skos:broader n0:z6v;
-	skos:prefLabel "wählen Einheiten von Größen situationsgerecht aus (insbesondere für Zeitspannen, Masse, Geld, Länge, Fläche, Volumen und Winkel) und wandeln sie ggf. um,"@de.
+	skos:prefLabel "wählen Einheiten von Größen situationsgerecht aus (insbesondere für Zeit, Masse, Geld, Länge, Fläche, Volumen und Winkel) und wandeln sie ggf. um,"@de.
 n0:x4h
 	 a skos:Concept;
 	skos:inScheme n0:;
@@ -145,7 +145,7 @@ n0:v9e
 	skos:inScheme n0:;
 	skos:notation "2.5";
 	skos:broader n0:z6v;
-	skos:prefLabel "ermitteln Volumen und Oberflächeninhalt von Quader, Prisma, Pyramide und Zylinder sowie daraus zusammengesetzten Körpern, auch mit Hilfe digitaler Mathematikwerkzeuge,"@de.
+	skos:prefLabel "ermitteln Volumen und Oberflächeninhalt von Prisma, Pyramide und Zylinder sowie daraus zusammengesetzten Körpern, auch mit Hilfe digitaler Mathematikwerkzeuge,"@de.
 n0:q9g
 	 a skos:Concept;
 	skos:inScheme n0:;
@@ -250,7 +250,8 @@ n0:d3x
 	skos:inScheme n0:;
 	skos:notation "3";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Leitidee Strukturen und funktionaler Zusammenhang"@de;
+	skos:prefLabel "Leitidee Strukturen und funktionaler Zusammenhang"@de; 
+	skos:definition """Die Leitidee umfasst funktionale Beziehungen zwischen Zahlen, Daten bzw. Größen sowie deren Darstellungen und Eigenschaften, auch unter Nutzung geeigneter digitaler Mathematikwerkzeuge. Das umfasst auch das Lösen von Gleichungen und linearen Gleichungssystemen und die Anwendung verschiedener Funktionenklassen bei der Bearbeitung von Problemen und in Sachsituationen. Die darauf bezogenen mathematischen Sachgebiete der Sekundarstufe I sind Algebra und Funktionen.\n\n Die Schülerinnen und Schüler"""@de;
 	skos:narrower 
 		n0:r7q,
 		n0:r2s,
