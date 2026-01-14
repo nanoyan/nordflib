@@ -6,27 +6,62 @@
 n0:f4y
 	 a skos:Concept;
 	skos:inScheme n0:;
-	skos:notation "";
+	skos:notation "1";
 	skos:topConceptOf n0:;
 	skos:prefLabel "rot"@de,
 	"rouge"@fr,
 	"rosso"@it,
 	"cotschen"@rm,
 	"red"@en.
-n0:v3x
+n0:h2z
 	 a skos:Concept;
 	skos:inScheme n0:;
-	skos:notation "";
-	skos:topConceptOf n0:;
+	skos:notation "2.1";
+	skos:broader n0:v3x;
+	skos:prefLabel "gelb"@de,
+	"jaune"@fr,
+	"giallo"@it,
+	"mellen"@rm,
+	"yellow"@en.
+n0:r9u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.1";
+	skos:broader n0:q4c;
 	skos:prefLabel "blau"@de,
 	"bleu"@fr,
 	"blu"@it,
 	"blau"@rm,
 	"blue"@en.
-n0:h2z
+n0:q4c
 	 a skos:Concept;
 	skos:inScheme n0:;
-	skos:notation "";
+	skos:notation "2.2";
+	skos:broader n0:v3x;
+	skos:prefLabel "rot"@de,
+	"rouge"@fr,
+	"rosso"@it,
+	"cotschen"@rm,
+	"red"@en;
+	skos:narrower 
+		n0:r9u.
+n0:v3x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "blau"@de,
+	"bleu"@fr,
+	"blu"@it,
+	"blau"@rm,
+	"blue"@en;
+	skos:narrower 
+		n0:h2z,
+		n0:q4c.
+n0:f6e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
 	skos:topConceptOf n0:;
 	skos:prefLabel "gelb"@de,
 	"jaune"@fr,
@@ -59,4 +94,4 @@ n0:
 	skos:hasTopConcept
 		n0:f4y,
 		n0:v3x,
-		n0:h2z.
+		n0:f6e.
