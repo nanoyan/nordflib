@@ -9,52 +9,52 @@ n0:f4y
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "rot"@de,
-	"red"@en,
 	"rouge"@fr,
 	"rosso"@it,
-	"cotschen"@rm.
+	"cotschen"@rm,
+	"red"@en.
 n0:v3x
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "blau"@de,
-	"blue"@en,
 	"bleu"@fr,
 	"blu"@it,
-	"blau"@rm.
+	"blau"@rm,
+	"blue"@en.
 n0:h2z
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "gelb"@de,
-	"yellow"@en,
 	"jaune"@fr,
 	"giallo"@it,
-	"mellen"@rm.
+	"mellen"@rm,
+	"yellow"@en.
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de,
-	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@en,
 	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@fr,
 	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@it,
-	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@rm;
+	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@rm,
+	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@en;
 	dct:title "Farben - Grundfarben"@de,
-	"Colors - Primary colors"@en,
 	"Couleurs - Couleurs primaires"@fr,
 	"Colori - Colori primari"@it,
-	"Colurs - Colurs primaras"@rm;
+	"Colurs - Colurs primaras"@rm,
+	"Colors - Primary colors"@en;
 	dc:title "Farben - Grundfarben"@de,
-	"Colors - Primary colors"@en,
 	"Couleurs - Couleurs primaires"@fr,
 	"Colori - Colori primari"@it,
-	"Colurs - Colurs primaras"@rm;
+	"Colurs - Colurs primaras"@rm,
+	"Colors - Primary colors"@en;
 	dc:description "Farben - Grundfarben"@de,
-	"Colors - Primary colors"@en,
 	"Couleurs - Couleurs primaires"@fr,
 	"Colori - Colori primari"@it,
-	"Colurs - Colurs primaras"@rm;
+	"Colurs - Colurs primaras"@rm,
+	"Colors - Primary colors"@en;
 	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
 		n0:f4y,
