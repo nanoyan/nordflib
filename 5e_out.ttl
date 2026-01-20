@@ -9,7 +9,7 @@ n0:see
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "GA - Geschlossen Ankreuzen"@de.
-n0:ud7
+n0:z5s
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
@@ -41,7 +41,7 @@ n0:
 	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
 		n0:see,
-		n0:ud7,
+		n0:z5s,
 		n0:q7b,
 		n0:p2a,
 		n0:2v5.
