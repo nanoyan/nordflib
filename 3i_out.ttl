@@ -14,7 +14,7 @@ n0:253
 	skos:inScheme n0:;
 	skos:notation "II";
 	skos:topConceptOf n0:;
-	skos:prefLabel "halfoffen"@de.
+	skos:prefLabel "halfoffen23"@de.
 n0:48u
 	a skos:Concept;
 	skos:inScheme n0:;
